@@ -16,9 +16,19 @@
       * 4.2.  测试（testing）
         * 4.2.1.  单元测试（unit testing）
         * 4.2.2.  功能测试（feature testing）
+                  功能测试必须在真正浏览器做，现在有四种方法。
+                  * 4.2.2.1.  使用本机安装的浏览器
+                  * 4.2.2.2.  使用 Selenium Driver
+                  * 4.2.2.3.  使用 Headless Chrome
+                  * 4.2.2.4.  使用 Electron,使用 Electron 模拟真实浏览器环境 提供大量人性化、易用的 API 官网：nightmarejs.org
+                  
         * 4.2.3.  集成测试（integration testing）
         * 4.2.4.  端对端测试 (End-to-End testing）
         * 4.2.5.  Mocha 测试框架
+        * 4.2.6.  移动平台的自动化测试 目前，最常见的方案是使用 Appium。
+                  1. 基于 WebDriver
+                  2. 采用 客户端/服务器架构
+                  3. 可以在模拟器运行，也可以在真机运行
       * 4.3.  合并进入主干（merging）
       * 4.4.  自动构建（building） 
       
