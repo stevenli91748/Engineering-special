@@ -18,6 +18,7 @@
         * 4.2.2.  功能测试（feature testing）
         
                   功能测试必须在真正浏览器做，现在有四种方法。
+                  
                   * 4.2.2.1.  使用本机安装的浏览器
                   * 4.2.2.2.  使用 Selenium Driver
                   * 4.2.2.3.  使用 Headless Chrome
