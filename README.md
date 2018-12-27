@@ -69,5 +69,5 @@
    *  Docker 容器化工具
   
 # 有用的参考
-* [前端工程化](https://github.com/stevenli91748/blog)
+* [前端工程化](https://github.com/gzpengli/blog)
  * 
