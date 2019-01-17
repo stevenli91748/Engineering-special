@@ -70,4 +70,4 @@
   
 # 有用的参考
 * [前端工程化](https://github.com/gzpengli/blog)
- * 
+* [软件开发工作过程中的一些总结](http://www.youmeek.com/java-sofaware-engineer/)
