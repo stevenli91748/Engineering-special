@@ -70,4 +70,4 @@
   
 # 有用的参考
 * [前端工程化](https://github.com/gzpengli/blog)
-* [软件项目开发流程（路线](http://www.youmeek.com/java-sofaware-engineer/)
+* [真实软件项目开发流程--从需求到开发的每一步骤](http://www.youmeek.com/java-sofaware-engineer/)
