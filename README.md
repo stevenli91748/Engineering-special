@@ -47,6 +47,9 @@
 
 # 前后端分离，接口API开发(RESTful API)
 
+ * [异步 API 的设计](http://www.ruanyifeng.com/blog/2018/12/async-api-design.html)
+
+
 ---
 
 
