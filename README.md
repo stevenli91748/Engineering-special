@@ -98,3 +98,4 @@
 # 有用的参考
 * [前端工程化](https://github.com/gzpengli/blog)
 * [真实软件项目开发流程--从需求到开发的每一步骤](http://www.youmeek.com/java-sofaware-engineer/)
+* [前端项目开发流程及技术选型](https://blog.csdn.net/hicoldcat/article/details/53995337)
