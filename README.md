@@ -63,6 +63,7 @@
  * [一个完善的 API 流程标准（草图）](https://segmentfault.com/a/1190000008243832)
  * [设计微服务应用层和 Web API](https://docs.microsoft.com/zh-cn/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/microservice-application-layer-web-api-design)
  * [使用 Web API 实现微服务应用层](https://docs.microsoft.com/zh-cn/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/microservice-application-layer-implementation-web-api)
+ * [企业级API网关的设计](https://www.jianshu.com/p/84dcce30f7c9)
 
 
 ---
