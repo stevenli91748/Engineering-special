@@ -52,7 +52,17 @@
  * [微服务RESTful 接口设计规范](https://blog.csdn.net/zl1zl2zl3/article/details/73867113)
  * [前后端分离购物网站—技术选型](https://blog.csdn.net/qq_39206806/article/details/81320826)
  * [使用RAP2和Mock.JS实现Web API接口的数据模拟和测试](https://www.cnblogs.com/wuhuacong/p/10213540.html)
- * [Web API应用架构设计分析](https://www.jianshu.com/p/e43933cdf582)
+ * [Web API应用架构设计分析](http://www.uml.org.cn/net/201507222.asp?artid=16667)
+ * [从接入层入手，设计高并发的微服务架构？](http://developer.51cto.com/art/201803/567754.htm)
+ * [在基于MVC的Web项目中使用Web API和直接连接两种方式混合式接入](https://www.cnblogs.com/wuhuacong/p/5850482.html)
+ * [架构设计（4）--API网关](https://blog.csdn.net/hguisu/article/details/79143584)
+ * [统一接入层方案](https://blog.csdn.net/JeamKing/article/details/73695200)
+ * [一个简单可参考的 API 网关架构设计](https://www.infoq.cn/article/api-gateway-architecture-design)
+ * [一切皆API的大环境下，如何打造API Everything](https://dbaplus.cn/news-141-1815-1.html)
+ * [基于 Spring Boot 的 Web API 项目的安全设计](https://www.ctolib.com/topics-132196.html)
+ * [一个完善的 API 流程标准（草图）](https://segmentfault.com/a/1190000008243832)
+ * [设计微服务应用层和 Web API](https://docs.microsoft.com/zh-cn/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/microservice-application-layer-web-api-design)
+ * [使用 Web API 实现微服务应用层](https://docs.microsoft.com/zh-cn/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/microservice-application-layer-implementation-web-api)
 
 
 ---
