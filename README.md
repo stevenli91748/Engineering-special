@@ -51,6 +51,8 @@
  * [springboot综合项目练习三定义微服务接口返回规范](https://blog.csdn.net/chenhaotao/article/details/86500548)
  * [微服务RESTful 接口设计规范](https://blog.csdn.net/zl1zl2zl3/article/details/73867113)
  * [前后端分离购物网站—技术选型](https://blog.csdn.net/qq_39206806/article/details/81320826)
+ * [使用RAP2和Mock.JS实现Web API接口的数据模拟和测试](https://www.cnblogs.com/wuhuacong/p/10213540.html)
+ * [Web API应用架构设计分析](https://www.jianshu.com/p/e43933cdf582)
 
 
 ---
