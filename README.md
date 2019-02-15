@@ -65,8 +65,8 @@
  * [使用 Web API 实现微服务应用层](https://docs.microsoft.com/zh-cn/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/microservice-application-layer-implementation-web-api)
  * [企业级API网关的设计](https://www.jianshu.com/p/84dcce30f7c9)
  * [微服务架构为何需要搭配API网关](https://blog.csdn.net/belalds/article/details/80913504)
- * [微服务与API网关（上）: 为什么需要API网关](http://blog.didispace.com/hzf-ms-apigateway-1/)
- * [微服务与API 网关（下）- Kong能为我们做什么？](http://blog.didispace.com/hzf-ms-apigateway-2/)
+ * [微服务与API网关（上）: 为什么需要API网关](http://blog.didispace.com/hzf-ms-apigateway-1)
+ * [微服务与API 网关（下）- Kong能为我们做什么？](http://blog.didispace.com/hzf-ms-apigateway-2)
  * [百亿流量 API 网关设计与实践](https://gitbook.cn/books/5bbb3d2a61d11c2d996be26b/index.html)
  * [为什么需要API网关，如何设计API网关](https://www.eefocus.com/communication/423672)
 
