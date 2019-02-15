@@ -119,3 +119,4 @@
 * [前端项目开发流程及技术选型](https://blog.csdn.net/hicoldcat/article/details/53995337)
 * [前端构建：3 类 13 种热门工具的选型参考](https://blog.csdn.net/vM199zkg3Y7150u5/article/details/84901166)
 * [前端项目开发流程](https://blog.csdn.net/xtaydwxf1988/article/details/75043753)
+* [个人开发web应用，从需求设计，界面设计，数据库设计，API设计等，好的开发流程是怎么样的？](https://www.zhihu.com/question/24976128)
