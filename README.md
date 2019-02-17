@@ -70,7 +70,8 @@
  * [百亿流量 API 网关设计与实践](https://gitbook.cn/books/5bbb3d2a61d11c2d996be26b/index.html)
  * [为什么需要API网关，如何设计API网关](https://www.eefocus.com/communication/423672)
  * [浅谈三种API设计风格RPC、REST、GraphQL](https://zhuanlan.zhihu.com/p/56955812)
- * [【spring 指南系列】如何更好的设计RESTful API](https://zhuanlan.zhihu.com/p/24592119)
+ * [spring 指南系列 如何更好的设计RESTful API](https://zhuanlan.zhihu.com/p/24592119)
+ * [Google Cloud 的 API 设计](https://zhuanlan.zhihu.com/p/27458970)
 
 
 ---
