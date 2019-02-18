@@ -78,6 +78,7 @@
  * [浅谈三种API设计风格RPC、REST、GraphQL](https://zhuanlan.zhihu.com/p/56955812)
  * [spring 指南系列 如何更好的设计RESTful API](https://zhuanlan.zhihu.com/p/24592119)
  * [Google Cloud 的 API 设计](https://zhuanlan.zhihu.com/p/27458970)
+ * [web项目前后端开发过程和体会](https://blog.csdn.net/gu_ude_god/article/details/81570544)
 
 
 ---
