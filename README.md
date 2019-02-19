@@ -57,6 +57,7 @@
  * [springboot综合项目练习三定义微服务接口返回规范](https://blog.csdn.net/chenhaotao/article/details/86500548)
  * [微服务RESTful 接口设计规范](https://blog.csdn.net/zl1zl2zl3/article/details/73867113)
  * [前后端分离购物网站—技术选型](https://blog.csdn.net/qq_39206806/article/details/81320826)
+ * [JavaWeb项目前后端分离](https://blog.csdn.net/xiaoyangsavvy/article/details/80476703) 
  * [使用RAP2和Mock.JS实现Web API接口的数据模拟和测试](https://www.cnblogs.com/wuhuacong/p/10213540.html)
  * [Web API应用架构设计分析](http://www.uml.org.cn/net/201507222.asp?artid=16667)
  * [从接入层入手，设计高并发的微服务架构？](http://developer.51cto.com/art/201803/567754.htm)
@@ -79,6 +80,7 @@
  * [spring 指南系列 如何更好的设计RESTful API](https://zhuanlan.zhihu.com/p/24592119)
  * [Google Cloud 的 API 设计](https://zhuanlan.zhihu.com/p/27458970)
  * [web项目前后端开发过程和体会](https://blog.csdn.net/gu_ude_god/article/details/81570544)
+ 
 
 
 ---
