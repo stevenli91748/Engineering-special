@@ -52,7 +52,7 @@
     
 
 # 前后端分离，接口API开发(RESTful API)
-
+ * [八步部署NGINX Plus API网关](https://zhuanlan.zhihu.com/p/38359208?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656)
  * [一个非常适合IT团队的在线API文档、技术文档工具](https://yun.gw.com.cn/doc/#/)
  * [异步 API 的设计](http://www.ruanyifeng.com/blog/2018/12/async-api-design.html)
  * [springboot综合项目练习三定义微服务接口返回规范](https://blog.csdn.net/chenhaotao/article/details/86500548)
