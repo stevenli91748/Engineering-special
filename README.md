@@ -52,6 +52,7 @@
     
 
 # 前后端分离，接口API开发(RESTful API)
+ * [使用API网关构建微服务](https://cloud.tencent.com/developer/article/1032069?fromSource=waitui)
  * [八步部署NGINX Plus API网关](https://zhuanlan.zhihu.com/p/38359208?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656)
  * [Building Microservices: Using an API Gateway](https://www.nginx.com/blog/building-microservices-using-an-api-gateway/)
  * [一个非常适合IT团队的在线API文档、技术文档工具](https://yun.gw.com.cn/doc/#/)
