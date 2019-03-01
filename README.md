@@ -57,6 +57,9 @@
 流行的非JVM选项是Node.js，它是一个建立在Chrome的JavaScript引擎上的平台。另一个选择是使用NGINX Plus。 NGINX Plus提供成熟，可扩展，高性能的
 Web服务器和反向代理，易于部署，配置和编程。 NGINX Plus可以管理身份验证，访问控制，负载均衡请求，缓存响应，并提供应用感知的健康检查和监控。
 
+使用传统的异步回调方法编写API组合代码很快会将您的回调带入地狱。代码会纠缠不清，难以理解，容易出错。一个更好的方法是使用反应性方法以声明式编写API网关代码。反应抽象的例子包括未来的Scala，Java 8中的CompletableFuture和JavaScript中的Promise。还有Reactive Extensions（也称为Rx或ReactiveX），最初由Microsoft为.NET平台开发。 Netflix为JVM创建了RxJava，专门用于其API网关。还有用于JavaScript的RxJS，它们都在浏览器和Node.js中运行。使用反应式方法将使您能够编写简单而有效的API网关代码。
+
+
  * [使用API网关构建微服务--实际例子](https://cloud.tencent.com/developer/article/1032069?fromSource=waitui)
  * [八步部署NGINX Plus API网关](https://zhuanlan.zhihu.com/p/38359208?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656)
  * [Building Microservices: Using an API Gateway](https://www.nginx.com/blog/building-microservices-using-an-api-gateway/)
