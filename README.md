@@ -52,6 +52,11 @@
     
 
 # 前后端分离，接口API开发(RESTful API)
+
+可以使用各种不同的技术来实现可扩展的API网关。在JVM上，您可以使用基于NIO的框架之一，例如Netty，Vertx，Spring Reactor或JBoss Undertow。一个
+流行的非JVM选项是Node.js，它是一个建立在Chrome的JavaScript引擎上的平台。另一个选择是使用NGINX Plus。 NGINX Plus提供成熟，可扩展，高性能的
+Web服务器和反向代理，易于部署，配置和编程。 NGINX Plus可以管理身份验证，访问控制，负载均衡请求，缓存响应，并提供应用感知的健康检查和监控。
+
  * [使用API网关构建微服务--实际例子](https://cloud.tencent.com/developer/article/1032069?fromSource=waitui)
  * [八步部署NGINX Plus API网关](https://zhuanlan.zhihu.com/p/38359208?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656)
  * [Building Microservices: Using an API Gateway](https://www.nginx.com/blog/building-microservices-using-an-api-gateway/)
