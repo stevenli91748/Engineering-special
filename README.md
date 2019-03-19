@@ -170,6 +170,7 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
  
    * [接口测试工具Postman接口测试图文教程](https://blog.csdn.net/niaonao/article/details/80998804)
    * [接口测试总结](https://blog.csdn.net/Lovejulyer/article/details/70544174)
+   * [超详细——接口测试总结与分享](https://blog.csdn.net/qq_41370110/article/details/82825224)
   
 # 有用的参考
 * [前端工程化](https://github.com/gzpengli/blog)
