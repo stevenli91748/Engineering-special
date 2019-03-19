@@ -120,7 +120,7 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
  * [web项目前后端开发过程和体会](https://blog.csdn.net/gu_ude_god/article/details/81570544)
  * [构建SpringMVCRestful前后端分离项目实例](https://blog.csdn.net/songxinjianqwe/article/details/54976251)
  * [Docker 对前后端分离项目的部署和运维（详述）](https://blog.csdn.net/qq_35394891/article/details/83027804)
- * [接口测试总结](https://blog.csdn.net/Lovejulyer/article/details/70544174)
+ 
  
 
 
@@ -167,6 +167,9 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
    *  Docker 容器化工具
    
  # 测试
+ 
+   * [接口测试工具Postman接口测试图文教程](https://blog.csdn.net/niaonao/article/details/80998804)
+   * [接口测试总结](https://blog.csdn.net/Lovejulyer/article/details/70544174)
   
 # 有用的参考
 * [前端工程化](https://github.com/gzpengli/blog)
