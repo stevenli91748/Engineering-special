@@ -85,6 +85,7 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
 
 对于大多数基于微服务的应用程序，实现一个API网关是有意义的，API网关充当系统的单个入口点。 API网关负责请求路由，组合和协议转换。它为应用程序的每个客户端提供了一个自定义API。 API网关还可以通过返回缓存或默认数据来掩盖后端服务中的故障
 
+ * [REST与RESTFul API最佳实践](https://www.itjc8.com/thread-628-1-1.html)
  * [一个简单可参考的 API 网关架构设计](https://www.infoq.cn/article/api-gateway-architecture-design)
  * [有赞API网关实践](https://tech.youzan.com/api-gateway-in-practice/)
  * [使用API网关构建微服务--实际例子](https://cloud.tencent.com/developer/article/1032069?fromSource=waitui)
