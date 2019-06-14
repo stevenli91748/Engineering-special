@@ -3,12 +3,6 @@
 
 # [项目工程化面试](https://github.com/stevenli91748/Engineering-special/blob/master/Interview/README.md)
 
-# [整个项目的完整流程]()
-
-
-
-
-
 # 前端工程化
 
 ---
