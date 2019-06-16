@@ -35,7 +35,8 @@ test  install  deploy
 * [Maven搭建Spring+SpringMVC+Mybatis+Shiro项目详解](https://blog.csdn.net/userrefister/article/details/72760424)
 * [MAVEN创建多模块项目（水平与树形结构）](https://blog.csdn.net/zhshulin/article/details/53001750)
 * [idea中配置maven](https://blog.csdn.net/nba_linshuhao/article/details/82715485)
-
+* [Maven入门指南（一）](http://ifeve.com/maven-1/)
+* [Maven入门指南（二）](http://ifeve.com/maven-2/)
 # 已安装的Maven
 安装目录
 c:\apache-maven-3.6.0
