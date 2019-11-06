@@ -33,6 +33,11 @@ test  install  deploy
 仓库配置
 
 
+# 视频
+
+* [Maven基础篇（IDEA版](https://www.bilibili.com/video/av54119831/?spm_id_from=333.788.videocard.2)
+
+
 # 有用的参考
 * [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
 * [Maven官方中心库](https://mvnrepository.com)
