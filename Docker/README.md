@@ -30,7 +30,7 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 
 
 # Docker视频
-
+  * [尚硅谷Docker从入门到精通](https://www.bilibili.com/video/av67964765?from=search&seid=16448355563394202110)
   * [马哥Docker容器技术](https://www.bilibili.com/video/av57934753)
   * [Docker入坑教程【33集】](https://www.bilibili.com/video/av17854410/?p=2)
   * [项目实战&跟着我1小时学会Docker部署微服务](https://www.bilibili.com/video/av65306049/?spm_id_from=333.788.videocard.11)
