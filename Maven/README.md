@@ -36,7 +36,7 @@ test  install  deploy
 # 视频
 
 * [Maven基础篇（IDEA版](https://www.bilibili.com/video/av54119831/?spm_id_from=333.788.videocard.2)
-
+* [尚硅谷-2018-Maven课程](https://www.bilibili.com/video/av71959337?from=search&seid=3444294724672188002)
 
 # 有用的参考
 * [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
