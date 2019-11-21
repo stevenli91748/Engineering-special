@@ -1,7 +1,7 @@
 # 目录
 
 
-Go|Swarm|Compose|Machine|Mesos|K8S|CI/CD|Jenkinds|
+Go|Swarm|Compose|Machine|Mesos|Kubernetes|CI/CD|Jenkinds|
 ---|---|---|---|---|---|---|---|
 
 
