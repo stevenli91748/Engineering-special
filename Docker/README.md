@@ -31,7 +31,8 @@ Go|[Swarm](https://github.com/stevenli91748/Engineering-special/blob/master/Dock
 [docker-两类存储资源bindmount](https://www.bilibili.com/video/av68863431)|[docker-两类存储managevolume](https://www.bilibili.com/video/av68863536)|[docker_共享数据volumecontainer](https://www.bilibili.com/video/av68863619)|
 ---|---|---|
 
-
+[docker_共享数据DatapackedVolumeContainer](https://www.bilibili.com/video/av68863724)|[docker_machine集中安装与管理](https://www.bilibili.com/video/av68953512)|[Docker_容器内启动systemd程序](https://www.bilibili.com/video/av70483806)|
+---|---|---|
 
 
 ### 知识点
