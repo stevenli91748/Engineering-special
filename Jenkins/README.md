@@ -51,6 +51,6 @@ Jenkins插件体系
   * [基于Docker构建企业Jenkins CI平台](https://www.bilibili.com/video/av63925465/?spm_id_from=333.788.videocard.2)
   * [企业如何构建CICD流水线](https://www.bilibili.com/video/av52572586/?spm_id_from=333.788.videocard.2)
   * [Docker+Jenkins集成持续部署](https://www.bilibili.com/video/av62369964/?spm_id_from=333.788.videocard.8)
-  
+  * [jenkins集成github实现项目自动部署](https://www.bilibili.com/video/av35343775/?spm_id_from=333.788.videocard.7)
   
   
