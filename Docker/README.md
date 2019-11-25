@@ -69,7 +69,7 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
   * [2018黑马docker容器技术+k8s集群技术](https://www.bilibili.com/video/av35847195?from=search&seid=15247674818172733793)
   * [基于Docker架构Mysql集群实战](https://www.bilibili.com/video/av73770025?from=search&seid=4231697486262267816)
   * [基于Docker构建企业Jenkins CI平台](https://www.bilibili.com/video/av63925465/?spm_id_from=333.788.videocard.2)
-
+  * [通过Amazon ECS轻松部署Docker容器](https://www.bilibili.com/video/av50493050?from=search&seid=10551429260496554172)
 # 有用的文档
 
 * [使用docker部署SpringCloud项目](https://www.javazhiyin.com/39846.html)
