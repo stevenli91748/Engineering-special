@@ -7,9 +7,9 @@
 
     1. mkdir -p /etc/docker
     2. vim /etc/docker/daemon.json
-    3. 设置网易163镜像加速
+    3. 设置阿里云镜像加速
         {
-         "registry-mirrors":["http://hub-mirror.c.163.com"]
+         "registry-mirrors":["https://72idtxd8.mirror.aliyuncs.com"]
         }
     4. sudo systemctl daemon-reload
     5. sudo systemctl restart docker
