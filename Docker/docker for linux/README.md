@@ -1,7 +1,8 @@
 0751-8292551  13680097002
 在dockers安装前配置阿里云镜像倉库地址
 
-    yum-config-manager --add -repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+    yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+
 
 配置镜像加速
 
