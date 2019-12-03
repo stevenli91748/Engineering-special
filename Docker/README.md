@@ -75,8 +75,9 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 
 
 
+# 视频
 
-
+  * [Docker 容器化实战项目（完）](https://www.bilibili.com/video/av58185419/?spm_id_from=333.788.videocard.0)
   * [尚硅谷Docker从入门到精通](https://www.bilibili.com/video/av67964765?from=search&seid=16448355563394202110)
   * [马哥Docker容器技术](https://www.bilibili.com/video/av57934753)
   * [Docker入坑教程【33集】](https://www.bilibili.com/video/av17854410/?p=2)
@@ -84,12 +85,13 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
   * [一小时学会Docker部署微服务](https://www.bilibili.com/video/av60467718/?spm_id_from=333.788.videocard.6)
   * [Docker实战docker镜像和容器的存储结构视频讲解](https://www.bilibili.com/video/av62373859/?spm_id_from=333.788.videocard.6)
   * [Docker+K8S+Jenkins项目实战视频教程（经典）](https://www.bilibili.com/video/av62049929/?spm_id_from=333.788.videocard.2)
-  * [尚硅谷】Java视频教程_Docker核心技术](https://www.bilibili.com/video/av30010765?from=search&seid=3633366878054862549)
+  * [【尚硅谷】Java视频教程_Docker核心技术](https://www.bilibili.com/video/av30010765?from=search&seid=3633366878054862549)
   * [Docker零基础到CaaS集群部署（完](https://www.bilibili.com/video/av49671303?from=search&seid=15247674818172733793)
   * [2018黑马docker容器技术+k8s集群技术](https://www.bilibili.com/video/av35847195?from=search&seid=15247674818172733793)
   * [基于Docker架构Mysql集群实战](https://www.bilibili.com/video/av73770025?from=search&seid=4231697486262267816)
   * [基于Docker构建企业Jenkins CI平台](https://www.bilibili.com/video/av63925465/?spm_id_from=333.788.videocard.2)
   * [通过Amazon ECS轻松部署Docker容器](https://www.bilibili.com/video/av50493050?from=search&seid=10551429260496554172)
+
 # 有用的文档
 
 * [使用docker部署SpringCloud项目](https://www.javazhiyin.com/39846.html)
