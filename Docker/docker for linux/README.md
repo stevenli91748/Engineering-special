@@ -18,7 +18,8 @@
      [root]# systemctl start docker
 
 
-配置镜像加速
+
+当在docker中下载images非常慢时，可配置阿里云镜像加速
 
     1. mkdir -p /etc/docker
     2. vim /etc/docker/daemon.json
