@@ -11,3 +11,4 @@
                           -e MYSQL_ROOT_PASSWORD=654321             初始化root用户的密码
                           -d mysql                                  后台程序运行mysql
                                                                                        
+4. docker exec -it  MYSQL运行成功后的容器ID  /bin/bash
