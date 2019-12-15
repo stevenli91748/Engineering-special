@@ -2,7 +2,13 @@
 1. [root]# systemctl start docker
 2. [root]# docker pull mysql
 3.创建数据库
+       
        创建数据库方式一：
+       
+       [root]# docker run -d --name mysql2 -p 12345:3306 -e MYSQL_ROOT_PASSWORD=gz19731108 mysql
+       
+       创建数据库方式二：
+       
        [root]# docker run -p 12345:3306                             将主机的12345端口射到dockers容器的3306端口  
                          
                          --name dockermysql                        运行服务名字
@@ -16,9 +22,8 @@
                          -e MYSQL_ROOT_PASSWORD=654321             初始化root用户的密码
                          
                          -d mysql                                  后台程序运行mysql
-       创建数据库方式二：
        
-       [root]# docker run -d --name mysql2 -p 12345:3306 -e MYSQL_ROOT_PASSWORD=gz19731108 mysql
+       
        
 4. 和MySQL交互操作
  
