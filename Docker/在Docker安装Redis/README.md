@@ -13,4 +13,6 @@
      
      Redis容器创建成功的ID
 
-4.   [root]# docker exec -it Redis容器创建成功的ID redis-cli
+4.   在创建成功容器中调用redis 的客户端软件
+
+     [root]# docker exec -it Redis容器创建成功的ID redis-cli
