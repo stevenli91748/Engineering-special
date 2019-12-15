@@ -28,12 +28,15 @@
 4. 和MySQL交互操作
  
        查看mysql的状态
+       
        [root]# docker ps
+       
        MySQL运行成功后的容器ID ''''
        
        [root]# docker exec -it MySQL运行成功后的容器ID  /bin/bash
        
        启动运行MySQL DATABASE
+       
        [root@ MySQL运行成功后的容器ID]# mysql -uroot -p
                        enter password： gz19731108
 
