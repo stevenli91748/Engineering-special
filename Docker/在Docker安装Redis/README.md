@@ -18,6 +18,7 @@
      [root]# docker exec -it Redis容器创建成功的ID redis-cli
 
      127.0.0.1:6379> set foo bar
+     
      OK
      
      127.0.0.1:6379> get foo
