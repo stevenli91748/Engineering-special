@@ -74,7 +74,8 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 [docker_共享数据DatapackedVolumeContainer](https://www.bilibili.com/video/av68863724)|[docker_machine集中安装与管理](https://www.bilibili.com/video/av68953512)|[Docker_容器内启动systemd程序](https://www.bilibili.com/video/av70483806)|
 ---|---|---|
 
-
+[容器的端口映射](https://www.bilibili.com/video/av17854410?p=12)|
+---|
 
 
 # 视频
