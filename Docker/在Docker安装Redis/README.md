@@ -10,6 +10,7 @@
 3. 创建容器
 
      [root]# docker run -p 6379:6379 -d redis redis-server
+     
      Redis容器创建成功的ID
 
 4.   [root]# docker exec -it Redis容器创建成功的ID redis-cli
