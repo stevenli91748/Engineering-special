@@ -161,6 +161,12 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
    *  基础平台管理工具--SaltStack
    *  Docker 容器化工具
    
+ # 视频
+ 
+ [JavaEE进阶1—工程化专题](https://www.bilibili.com/video/av60638359/?spm_id_from=333.788.videocard.14)
+   
+   
+   
  # 测试
  
  ##  [性能测试](https://blog.csdn.net/smooth00/article/category/6793945)
