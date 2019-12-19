@@ -12,14 +12,10 @@
 Go|[Swarm-管理docker集群](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Swarm/README.md)|[Compose-管理docker容器的应用部署](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Compose/README.md)|[Machine-安装docker](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Machine/README.md)|
 ---|---|---|---|
 
-[Mesos-高可用的集群管理](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Mesos/README.md)|[Kubernetes-容器集群管理](https://github.com/stevenli91748/Big-Data/blob/master/Kubernetes/README.md)|
----|---|
+[Mesos-高可用的集群管理](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Mesos/README.md)|[Kubernetes-容器集群管理](https://github.com/stevenli91748/Big-Data/blob/master/Kubernetes/README.md)|CI/CD|Jenkinds|
+---|---|---|---|
 
-CI/CD|Jenkinds|
----|---|
-
-
-
+---
 
 Docker镜像|Docker容器|[Docker网络](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Docker网络/README.md)|[Docker存础](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Docker%E5%AD%98%E7%A1%80/README.md)|[容器网络](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/容器网络/README.md)|容器监控|
 ---|---|---|---|---|---|
