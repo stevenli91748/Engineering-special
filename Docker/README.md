@@ -116,3 +116,4 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 * [Oracle Database Server 12 Docker Image ](https://hub.docker.com/u/gzpengli/content/sub-6f6dd5fd-1fb8-414b-858a-cc1e44a6a12c)
 * [Docker构建ELK Docker集群日志收集系统](https://www.jb51.net/article/96913.htm)
 * [解决centos7 docker1.9 没有配置文件](https://blog.csdn.net/qq_34173549/article/details/79820251)
+* [新版docker启动配置文件不生效问题](https://blog.csdn.net/zz_15127160921/article/details/80408644)
