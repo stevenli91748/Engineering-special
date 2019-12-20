@@ -3,3 +3,7 @@
 
 
 
+# 有用的参考
+
+* [docker daemon ](https://docs.docker.com/engine/reference/commandline/dockerd/)
+* [详解Docker守护进程的配置及日志](https://www.jb51.net/article/138102.htm)
