@@ -1,5 +1,5 @@
 
-
+* Docker守护进程的默认配置文件/etc/docker/daemon.json
 
 
 
