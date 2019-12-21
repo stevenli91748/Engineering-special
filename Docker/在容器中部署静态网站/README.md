@@ -34,7 +34,7 @@
        
         [root@7836353839 nginx]# whereis nginx
         [root@7836353839 nginx]# cd /etc/nginx
-        [root@7836353839 nginx]# vi nginx.conf.default
+        [root@7836353839 nginx]# vi nginx.conf
        
         server {
                 listen   80;
