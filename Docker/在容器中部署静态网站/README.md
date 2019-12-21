@@ -13,15 +13,18 @@
        [root@7836353839]# yum install vim
        
  4. 创建静态页面
-      
       [root@7836353839]# mkdir /var/www/html
+ 
       [root@7836353839]# cd /var/www/html
+ 
       [root@7836353839 /var/www/html]# touch index.html
+      
       [root@7836353839 /var/www/html]# vi index.html
-      <html>
-       <head>
+      
+       <html>
+        <head>
             <title> our web</title>
-       </head>
+        </head>
         <body>
              this is my world
         </body>
