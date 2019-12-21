@@ -22,12 +22,12 @@
       [root@7836353839 /var/www/html]# vi index.html
       
        <html>
-        <head>
+         <head>
             <title> our web</title>
-        </head>
-        <body>
+         </head>
+         <body>
              this is my world
-        </body>
+         </body>
       </html>
   
  5. 修改Nginx配置文件
@@ -54,10 +54,31 @@
          
          nginx 容器-------------
          
-         [root]# docker port web-centos
+         # 用docker命令 查看端口
+         [root]# docker port web-centos  
+         
+         web-centos: 容器ID
          
          80/tcp->0.0.0.0:49167
  
+       # 用docker命令查看容器进程的状态
+        [root]# docker top web-centos
+ 
  7. 验证网站訪问
        
-      
+        7.1 在本虚拟机上用浏览器訪问
+        
+          [root]# ip addr show
+          ens33   192.168.28.128
+          
+          http://127.0.0.1:49167
+          
+          显示Nginx信息，但不是自定义信息，还有问题
+          
+        7.2 在物理主机上用浏览器訪问
+        
+          
+          http://192.168.28.128:49167
+          
+          不能訪问
+          
