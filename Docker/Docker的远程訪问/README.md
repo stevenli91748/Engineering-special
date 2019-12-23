@@ -24,7 +24,7 @@
 
  3.  修改docker守护进程启动选项   
        
-       socket的三种协议
+              socket的三种协议
           
               -H   tcp://host:port
                    unix:///path/to/socket
