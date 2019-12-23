@@ -22,7 +22,7 @@
             [root]# systemctl daemon-reload
             [root]# systemctl restart docker
 
- 3.  修改docker守护进程启动选项   
+ 3.  修改服务端docker守护进程启动选项   
        
        3.1 docker守护进程Socket的修改
        
@@ -43,6 +43,20 @@
               
               0.0.0.0 的地址表示用自身的IP 来绑定
               
+              重新启动docker
+              
+              [root]# systemctl restart docker
+              
+              然后用ps 查看
+              
+              [root]# ps -ef|grep docker
+              
+              得到服务端的IP地址
+              [root]# ip addr show
+   
+   4.  用另一台虚拟机来訪问服务器端的docker           
+     
+       
               
               
               
