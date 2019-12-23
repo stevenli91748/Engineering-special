@@ -6,7 +6,7 @@
       
       1.3  保证clinet API 和 Server API版本一致
 
-2. 设置两台服务器的server label，以示区别
+2. 设置两台服务器的server label，docker_server_1 和docker_server_2以示区别 
 
        2.1.  [root]# vi /etc/default/docker
              添加
