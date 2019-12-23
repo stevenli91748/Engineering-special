@@ -59,19 +59,34 @@
    
         在docker_server_2机上
          
+        方式一
+        
            [root]# docker -H tcp://192.168.28.128:2375 info
            
            显示docker_server_1的信息
            
            or
-           
+        
+       方式二
+       
           [root]#  curl http://192.168.28.128:2375/info
             
            显示docker_server_1的信息
 
-     
-       
+       方式三    
+         
+        也可设置环境变量来设置，就不用每次手动在命令行输入  [root]# docker -H tcp://192.168.28.128:2375 info
+        使用环境变量DOCKER_HOST
+        
+        [root]# export DOCKER_HOST="tcp://192.168.28.128:2375"
+        [root]# docker info
+        
+         显示docker_server_1的信息      
               
-              
-              
-              
+         当使用完远程服务器时，把 DOCKER_HOST="" 置空，那就重设为本地机器
+         
+         [root]# export DOCKER_HOST=""
+         [root]# docker info
+         
+         显示docker_server_2 的信息 ,也就是本机信息
+         
