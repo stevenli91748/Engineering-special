@@ -60,8 +60,9 @@
         在docker_server_2机上
         
           [root]# curl http://192.168.28.128:2375/info
-          
-          能看到docker_server_1的信息
+            
+         curl: (7) Failed connect to 192.168.28.128:2375; No route to host
+
      
        
               
