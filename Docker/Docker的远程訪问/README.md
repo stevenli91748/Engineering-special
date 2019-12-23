@@ -13,19 +13,12 @@
              DOCKER_OPTS="--label name=docker_server_1"   
      
        2.2. 打开docker.service文件， 
- 
             [root]# vim /lib/systemd/system/docker.service    
-    
             在[Service]添加一行
-     
             EnvironmentFile=-/etc/default/docker   (-表示忽略错误)
-      
-      然后在
-     
-     ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock 的后面加上 $DOCKER_OPTS
-      
-      [root]# systemctl daemon-reload
-     
-      [root]# systemctl restart docker
+            然后在
+            ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock 的后面加上 $DOCKER_OPTS
+            [root]# systemctl daemon-reload
+            [root]# systemctl restart docker
 
      
