@@ -2,21 +2,21 @@
 
 新版的docker，没有默认配置文件/etc/default/docker或有但直接在/etc/default/docker中修改启动项，然后输入 
    
-   [root]# vi /etc/default/docker
+    [root]# vi /etc/default/docker
    
-   添加
+    添加
    
-   DOCKER_OPTS="--label name=docker_server_1"
+    DOCKER_OPTS="--label name=docker_server_1"
    
-   [root]# systemctl daemon-reload
+    [root]# systemctl daemon-reload
    
-   [root]# systemctl restart docker
+    [root]# systemctl restart docker
    
-   [root]# docker info
+    [root]# docker info
    
-   label 为空
+    label 为空
    
-   在默认的配置文件中修改的项不生效
+    在默认的配置文件中修改的项不生效
   
  解决的方法 
  
