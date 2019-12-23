@@ -51,17 +51,23 @@
               
               [root]# ps -ef|grep docker
               
-              得到服务端的IP地址
+              得到服务端 docker_server_1 的IP地址
               [root]# ip addr show
               ens33  192.168.28.128
                       
-   4.  用另一台虚拟机来訪问服务器端的docker      
+   4.  用另一台虚拟机docker_server_2来訪问服务器端docker_server_1      
    
         在docker_server_2机上
-        
-          [root]# curl http://192.168.28.128:2375/info
+         
+           [root]# docker -H tcp://192.168.28.128:2375 info
+           
+           显示docker_server_1的信息
+           
+           or
+           
+          [root]#  curl http://192.168.28.128:2375/info
             
-         curl: (7) Failed connect to 192.168.28.128:2375; No route to host
+           显示docker_server_1的信息
 
      
        
