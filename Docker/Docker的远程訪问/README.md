@@ -9,10 +9,13 @@
 2. 设置两台服务器的server label，docker_server_1 和docker_server_2以示区别 
 
        分别在两台服务器上操作
+       
        2.1.  [root]# vi /etc/default/docker
              添加
              DOCKER_OPTS="--label name=docker_server_1"   
-     
+             or 
+             DOCKER_OPTS="--label name=docker_server_2"   
+             
        2.2. 打开docker.service文件， 
             [root]# vim /lib/systemd/system/docker.service    
             在[Service]添加一行
@@ -78,12 +81,15 @@
         也可设置环境变量来设置，就不用每次手动在命令行输入 
         
         [root]# docker -H tcp://192.168.28.128:2375 info    //查看docker_server_1 的信息
+        
         [root]# docker -H tcp://192.168.28.128:2375 images  //查看docker_server_1 境像
         
         使用环境变量DOCKER_HOST后，就好象在docker_server_1上使用docker命令一样
         
         [root]# export DOCKER_HOST="tcp://192.168.28.128:2375"
+        
         [root]# docker info        //查看docker_server_1 的信息
+        
         [root]# docker images      //查看docker_server_1 境像
 
         
@@ -92,7 +98,32 @@
          当使用完远程服务器时，把 DOCKER_HOST="" 置空，那就重设为本地机器
          
          [root]# export DOCKER_HOST=""
+        
          [root]# docker info
          
          显示docker_server_2 的信息 ,也就是本机信息
          
+5.  回到docker_server_1 机上
+
+    [root]# docker info
+    
+         err: cannot connect to the docker daemon  is "docker -d" runing on the this host?
+         当我们在docker_server_1的客户端输入命令时出错，表示当前的守护进程不支持当前客户端和服务端的链接方式，已将当前的链接改为
+         tcp://ip:port
+         
+         解决方法
+         
+          [root]# vi /etc/default/docker
+       
+         
+          在DOCKER_OPTS选项上添加  -H unix:///var/run/docker.sock
+         
+          -H 是能添加多个选项的
+         
+          DOCKER_OPTS="--label name=docker_server_1 -H tcp://0.0.0.0:2375"   -H unix:///var/run/docker.sock
+         
+          [root]# systemctl restart docker
+          
+          [root]# docker info
+          
+          显示本地 docker_server_1 的信息 
