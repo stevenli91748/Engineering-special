@@ -30,9 +30,8 @@
                    unix:///path/to/socket
                    fd://socketfd
                    
-       docker守护进程socket的默认配置
-       
-           -H unix:///var/run/docker.sock
+              docker守护进程socket的默认配置
+                  -H unix:///var/run/docker.sock
 
               设置docker_server_1的sock 协议
               [root]# vi /etc/default/docker
