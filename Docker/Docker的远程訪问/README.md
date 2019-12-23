@@ -53,8 +53,15 @@
               
               得到服务端的IP地址
               [root]# ip addr show
+              ens33  192.168.28.128
+                      
+   4.  用另一台虚拟机来訪问服务器端的docker      
    
-   4.  用另一台虚拟机来訪问服务器端的docker           
+        在docker_server_2机上
+        
+          [root]# curl http://192.168.28.128:2375/info
+          
+          能看到docker_server_1的信息
      
        
               
