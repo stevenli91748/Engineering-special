@@ -75,11 +75,17 @@
 
        方式三    
          
-        也可设置环境变量来设置，就不用每次手动在命令行输入  [root]# docker -H tcp://192.168.28.128:2375 info
-        使用环境变量DOCKER_HOST
+        也可设置环境变量来设置，就不用每次手动在命令行输入 
+        
+        [root]# docker -H tcp://192.168.28.128:2375 info    //查看docker_server_1 的信息
+        [root]# docker -H tcp://192.168.28.128:2375 images  //查看docker_server_1 境像
+        
+        使用环境变量DOCKER_HOST后，就好象在docker_server_1上使用docker命令一样
         
         [root]# export DOCKER_HOST="tcp://192.168.28.128:2375"
-        [root]# docker info
+        [root]# docker info        //查看docker_server_1 的信息
+        [root]# docker images      //查看docker_server_1 境像
+
         
          显示docker_server_1的信息      
               
