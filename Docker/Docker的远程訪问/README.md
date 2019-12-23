@@ -24,6 +24,8 @@
 
  3.  修改docker守护进程启动选项   
        
+       3.1 docker守护进程Socket的修改
+       
               socket的三种协议
           
               -H   tcp://host:port
