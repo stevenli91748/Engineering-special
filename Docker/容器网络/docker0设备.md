@@ -41,6 +41,6 @@
           [root]# ifconfig br0 192.168.100.1 netmask 255.255.255.0
           
           更改docker守护进程的启动配置
-          /etc/default/docker中添加DOCKER_OPTS  -b=br0
+          /etc/default/docker中添加DOCKER_OPTS= “  -b=br0 ”
           
           
