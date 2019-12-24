@@ -43,4 +43,4 @@
           更改docker守护进程的启动配置
           /etc/default/docker中添加DOCKER_OPTS= “  -b=br0 ”
           
-          
+          [root]# systemctl start docker
