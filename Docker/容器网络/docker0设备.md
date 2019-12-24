@@ -17,7 +17,7 @@
      
      查看网桥的信息
      
-     安装
+     安装网桥工具
       [root]# yum install bridge-utils
       [root]# brctl show
       
