@@ -44,3 +44,5 @@
           /etc/default/docker中添加DOCKER_OPTS= “  -b=br0 ”
           
           [root]# systemctl start docker
+          [root]# pd -ef|grep docker
+          -----------------/usr/bin/docker -d -b=br0
