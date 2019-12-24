@@ -38,11 +38,27 @@
           添加自定义的虚拟网桥
           
           [root]# brctl addbr br0
+          
           [root]# ifconfig br0 192.168.100.1 netmask 255.255.255.0
           
           更改docker守护进程的启动配置
+          
           /etc/default/docker中添加DOCKER_OPTS= “  -b=br0 ”
           
           [root]# systemctl start docker
+          
           [root]# pd -ef|grep docker
           -----------------/usr/bin/docker -d -b=br0
+
+          新建容器使用新建网桥的IP地址域来分配IP地址
+          
+          [root]# docker run -it centos /bin/bash
+          
+          [root]# ip addr show
+          
+          eth08    ip addr   192.168.100.2
+          
+         
+          
+
+
