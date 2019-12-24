@@ -91,9 +91,31 @@
        
        我们利用 --link 创建第三个容器，允许它能訪问第一容器，但不能訪问第二个容器
        
-       [root]# docker run -it --name threecentos --link=firstcentos:别名 centos
+       [root]# docker run -it --name threecentos --link=firstcentos:firsttest centos
+       [root]# curl firsttest
+       如果不能成功，检查防火墙
        
+       [root]# iptables -L -n
+       把iptables 清空
+       [root]# iptables -F
        
+       重新启动docker服务
+       
+       [root]# systemctl start docker
+       启动容器
+       [root]# docker restart firstcentos secondcentos threecentos
+       
+       启动firstcentos 的Nginx
+       [root]# docker attache firstcentos
+       [root@firstcentos]# nginx
+       
+       启动threecentos容器
+       [root]# docker attach threecentos
+       
+       从第三容器訪问第一容器
+       [root@threecentos]# curl firsttest
+       
+       显示NGINX 信息，訪问成功
        
        
        
