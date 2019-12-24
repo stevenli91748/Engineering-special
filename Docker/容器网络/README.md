@@ -71,51 +71,63 @@
   
   3. 允许特定容器间的连接
       
-      需要三个配置
+          需要三个配置
       
-      --icc=false
+          --icc=false
       
-      --iptables=true
+          --iptables=true
       
-      --link
+          --link
       
-      修改docker默认配置文件
+          修改docker默认配置文件
        
-       [root]# vi /etc/default/docker
-       添加 --icc --iptables 到DOCKER_OPTS中
-       DOCKER_OPTS=" --icc=false --iptables=true"
+            [root]# vi /etc/default/docker
+            
+            添加 --icc --iptables 到DOCKER_OPTS中
+            
+            DOCKER_OPTS=" --icc=false --iptables=true"
        
-       [root]# systmectl restart docker
+            [root]# systmectl restart docker
        
-       现在，容器间是不能互相訪问的
+            现在，容器间是不能互相訪问的
        
-       我们利用 --link 创建第三个容器，允许它能訪问第一容器，但不能訪问第二个容器
+            我们利用 --link 创建第三个容器，允许它能訪问第一容器，但不能訪问第二个容器
        
-       [root]# docker run -it --name threecentos --link=firstcentos:firsttest centos
-       [root]# curl firsttest
-       如果不能成功，检查防火墙
+            [root]# docker run -it --name threecentos --link=firstcentos:firsttest centos
+            
+            [root]# curl firsttest
+            
+            如果不能成功，检查防火墙
        
-       [root]# iptables -L -n
-       把iptables 清空
-       [root]# iptables -F
+            [root]# iptables -L -n
+            
+            把iptables 清空
        
-       重新启动docker服务
+            [root]# iptables -F
        
-       [root]# systemctl start docker
-       启动容器
-       [root]# docker restart firstcentos secondcentos threecentos
+            重新启动docker服务
        
-       启动firstcentos 的Nginx
-       [root]# docker attache firstcentos
-       [root@firstcentos]# nginx
+            [root]# systemctl start docker
+            
+            启动容器
+            
+            [root]# docker restart firstcentos secondcentos threecentos
        
-       启动threecentos容器
-       [root]# docker attach threecentos
+            启动firstcentos 的Nginx
+            
+            [root]# docker attache firstcentos
+            
+            [root@firstcentos]# nginx
        
-       从第三容器訪问第一容器
-       [root@threecentos]# curl firsttest
+            启动threecentos容器
+            
+            [root]# docker attach threecentos
        
-       显示NGINX 信息，訪问成功
+            从第三容器訪问第一容器
+       
+            [root@threecentos]# curl firsttest
+       
+            显示NGINX 信息，訪问成功
        
        
        
