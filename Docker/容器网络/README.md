@@ -194,6 +194,32 @@
    
    # 限制IP訪问容器
    
+    例子
+     在另一虚拟机上新建一个容器 fourcentos
+     
+     [root]# docker run -it -p 80 --name fourcentos centos
+     [root@984746443]# nginx
+     ctrl+P+Q 退出容器
+     
+     [root]# ip addr show
+     ens33  10.200.55.3  
+     
+     现在设置： 不允许192.168.28.128的那一台机訪问本机
+     
+     在本机的iptables中添加一条新规则
+     [root]# iptables -I docker -s 10.200.55.3 -d 192.168.28.128 -p TCP --dport 80 -j DROP
+     
+     
+     -I docker           新加一条docker规则
+     -s 10.200.55.3      源地址
+     -d 192.168.28.128   目的地址
+     -P TCP              使用的协仪
+     --dport 80          目的端口
+     -J DROP             所需要的操作
+     
+     
+     
+     
    
    
    
