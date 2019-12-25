@@ -142,6 +142,28 @@
    
    # ip_forward
    
+      在Linux系统中如果要开启数据转发功能，可用以下的Linux命令来查看数据转发功能是否开发
+      
+      [root]# sysctl net.ipv4.conf.all.forwarding
+      net.ipv4.conf.all.forwarding=0      // 0 就是关闭   1 就是开启
+      
+      如果在docker系统中启动Linux数据转发功能，就必须要配置/etc/default/docker默认配置文件
+      
+      [root]# vi /etc/default/docker
+      
+      添加 --ip-forward=true 到 DOCKER_OPTS
+      
+      DOCKER_OPTS=" --ip-forward=true"
+
+      当设置 --ip-forward=true时，Linux的net.ipv4.conf.all.forwarding 就为 1
+      
+      
+      
+      
+      
+      
+    
+   
    
    # iptables
    
