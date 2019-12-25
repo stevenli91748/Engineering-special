@@ -157,19 +157,40 @@
 
       当设置 --ip-forward=true时，Linux的net.ipv4.conf.all.forwarding 就为 1
       
-      
-      
-      
-      
-      
-    
-   
    
    # iptables
-   
+      
+      查看forward output 等表
+      [root]# iptables -L -n
+      
+      
    
    # 端口映射訪问
    
+     在第一台的虚拟机上
+     [root]# docker run -it -p 32768:80 --name firstcentos centos
+     [root@89087654]# nginx
+     ctrl+P+Q 退出容器
+     
+     [root]# ip addr show
+     ens33 192.168.28.128
+
+     查看容器的端口映射
+     [root]# docker port firstcentos
+     80/tcp -> 0.0.0.0:32768
+     
+     从本虚拟机訪问容器firstcentos中的Nginx
+     [root]# curl 127.0.0.1:32768
+     
+     显示nginx信息 
+
+     启动第二台虚拟机
+     
+     从第二台虚拟机上远程訪问第一台虚拟机容器firstcentos上的Nginx服务
+     [root]# curl 192.168.28.128：32768
+     
+     显示nginx信息 
+     
    
    # 限制IP訪问容器
    
