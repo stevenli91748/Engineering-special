@@ -131,11 +131,26 @@
             [root@threecentos]# curl firsttest
        
             显示NGINX 信息，訪问成功
-       
-       
-       
-       
-      
-
 
 # DOCKER容器与外部网络的连接
+
+   ip_forward 和 iptables决定了容器与外部网络的连接
+     
+   [ip_forward](#ip_forward)|[iptables](#iptables)|[端口映射訪问](#端口映射訪问)|[限制IP訪问容器](#限制IP訪问容器)|
+   ---|---|---|---|
+   
+   
+   # ip_forward
+   
+   
+   # iptables
+   
+   
+   # 端口映射訪问
+   
+   
+   # 限制IP訪问容器
+   
+   
+   
+   
