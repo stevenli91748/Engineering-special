@@ -1,6 +1,8 @@
 ### 注意，Docker和VMware workstation 有冲突
 ### [冲突解决方法--Win10系统下提示VMware与Device/Credential Guard不兼容如何解决](http://www.win7zhijia.cn/win10jc/win10_20680.html)
-### 修改服务端默认配置,docker1.12版本之前是修改vim /etc/default/docker的DOCKER_OPTS参数的，但是1.12之后docker建议在/etc/docker/daemon.json文件中修改docker启动参数，修改完后，通过   [root]# dockerd     命令启动守护进程
+### Docker服务端默认配置文件,docker1.12版本之前是修改vim /etc/default/docker的DOCKER_OPTS参数的，但是1.12之后docker建议在/etc/docker/daemon.json文件中修改docker启动参数，修改完后，通过   [root]# dockerd     命令启动守护进程
+### Docker服务启动文件 ： /usr/lib/systemd/system/docker.service
+
 
 <details>
 <summary>docker启动参数</summary>
