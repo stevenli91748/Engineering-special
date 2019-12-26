@@ -1,3 +1,4 @@
+# 修改docker的守护进程docker0的IP地址
 
 [root]# ifconfig docker0 192.168.28.166 netmask 255.255.255.0
 
