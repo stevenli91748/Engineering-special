@@ -127,3 +127,10 @@
           [root]# docker info
           
           显示本地 docker_server_1 的信息 
+          
+          
+          
+          
+# 有用的参考
+
+* [远程连接docker daemon，Docker Remote API](https://deepzz.com/post/dockerd-and-docker-remote-api.html)
