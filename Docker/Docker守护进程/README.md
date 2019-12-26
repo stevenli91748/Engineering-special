@@ -5,6 +5,8 @@
 [docker0网桥设备](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/容器网络/docker0设备.md)|[如何修改Docker0的IP地址](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Docker守护进程/如何修改Docker0的IP地址.md)|[修改docker0的IP不生效](https://www.cnblogs.com/rootid/p/9317772.html)|
 ---|---|---|
 
+[Docker修改daemon.json后无法启动的问题](https://www.cnblogs.com/cocowool/p/docker_daemon_log_driver.html)|
+---|
 
 
 
