@@ -132,13 +132,19 @@
    "node-generic-resources": ["NVIDIA-GPU=UUID1", "NVIDIA-GPU=UUID2"],
    
    "runtimes": {
+   
         "cc-runtime": {
-            "path": "/usr/bin/cc-runtime"
+   
+           "path": "/usr/bin/cc-runtime"
         },
+        
         "custom": {
-            "path": "/usr/local/bin/my-runc-replacement",
-            "runtimeArgs": [
-                "--debug"
+        
+             "path": "/usr/local/bin/my-runc-replacement",
+             
+             "runtimeArgs": [
+             
+                 "--debug"
             ]
         }
     }
