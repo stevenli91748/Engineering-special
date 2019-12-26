@@ -1,5 +1,88 @@
 # 注意，Docker和VMware workstation 有冲突
 # [冲突解决方法--Win10系统下提示VMware与Device/Credential Guard不兼容如何解决](http://www.win7zhijia.cn/win10jc/win10_20680.html)
+# 修改服务端默认配置,docker1.12版本之前是修改vim /etc/default/docker的DOCKER_OPTS参数的，但是1.12之后docker建议在/etc/docker/daemon.json文件中修改docker启动参数
+
+<details>
+<summary>docker启动参数</summary>
+ {
+    "authorization-plugins": [],
+    "data-root": "",
+    "dns": [],
+    "dns-opts": [],
+    "dns-search": [],
+    "exec-opts": [],
+    "exec-root": "",
+    "experimental": false,
+    "storage-driver": "",
+    "storage-opts": [],
+    "labels": [],
+    "live-restore": true,
+    "log-driver": "",
+    "log-opts": {},
+    "mtu": 0,
+    "pidfile": "",
+    "cluster-store": "",
+    "cluster-store-opts": {},
+    "cluster-advertise": "",
+    "max-concurrent-downloads": 3,
+    "max-concurrent-uploads": 5,
+    "default-shm-size": "64M",
+    "shutdown-timeout": 15,
+    "debug": true,
+    "hosts": [],
+    "log-level": "",
+    "tls": true,
+    "tlsverify": true,
+    "tlscacert": "",
+    "tlscert": "",
+    "tlskey": "",
+    "swarm-default-advertise-addr": "",
+    "api-cors-header": "",
+    "selinux-enabled": false,
+    "userns-remap": "",
+    "group": "",
+    "cgroup-parent": "",
+    "default-ulimits": {},
+    "init": false,
+    "init-path": "/usr/libexec/docker-init",
+    "ipv6": false,
+    "iptables": false,
+    "ip-forward": false,
+    "ip-masq": false,
+    "userland-proxy": false,
+    "userland-proxy-path": "/usr/libexec/docker-proxy",
+    "ip": "0.0.0.0",
+    "bridge": "",
+    "bip": "",
+    "fixed-cidr": "",
+    "fixed-cidr-v6": "",
+    "default-gateway": "",
+    "default-gateway-v6": "",
+    "icc": false,
+    "raw-logs": false,
+    "allow-nondistributable-artifacts": [],
+    "registry-mirrors": [],
+    "seccomp-profile": "",
+    "insecure-registries": [],
+    "no-new-privileges": false,
+    "default-runtime": "runc",
+    "oom-score-adjust": -500,
+    "node-generic-resources": ["NVIDIA-GPU=UUID1", "NVIDIA-GPU=UUID2"],
+    "runtimes": {
+        "cc-runtime": {
+            "path": "/usr/bin/cc-runtime"
+        },
+        "custom": {
+            "path": "/usr/local/bin/my-runc-replacement",
+            "runtimeArgs": [
+                "--debug"
+            ]
+        }
+    }
+}
+ 
+</details>
+
 
 # 目录
 
