@@ -231,6 +231,22 @@
  * [3. 使用weave实现跨主机容器连接](#使用weave实现跨主机容器连接)
  
 # 使用网桥实现跨主机容器连接
+ 
+  * [利用虚拟网桥实现Docker容器的跨主机访问](https://www.cnblogs.com/ruiqingzhang/p/4463971.html)
+   
+     环境配置
+     
+        创建两台虚拟机
+        host1 ip: 192.168.28.128
+        host2 ip: 192.168.28.130
+     
+     
+     
+
+
+
+
+
 
 # 使用Open vSwitch实现跨主机容器连接
 
