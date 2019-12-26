@@ -168,7 +168,7 @@
 [在容器中部署静态网站](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在容器中部署静态网站/README.md)|[Docker的远程訪问](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Docker的远程訪问/README.md)|[docker部署rabbitmq集群的实现方法](https://www.jb51.net/article/144748.htm)|
 ---|---|---|
 
-[Docker容器化部署尝试——多容器通信(node+mongoDB+nginx)](https://www.jb51.net/article/153042.htm)|
+[Docker容器化部署尝试——多容器通信(node+mongoDB+nginx)](https://www.jb51.net/article/153042.htm)|[Docker容器使用jenkins部署web项目(总结)](https://www.jb51.net/article/146319.htm)|
 ---|
 
 
