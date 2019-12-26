@@ -280,3 +280,4 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 * [CentOS 7 配置Docker 远程API访问](https://blog.csdn.net/hjh00/article/details/77816661)
 * [docker配置文件以及各种问题汇总---随笔](https://blog.csdn.net/xxb249/article/details/79149783)
 * [Docker Compose搭建mycat读写分离](https://blog.csdn.net/wang_jingj/article/details/54023892)
+* [远程连接docker daemon，Docker Remote API](https://deepzz.com/post/dockerd-and-docker-remote-api.html)
