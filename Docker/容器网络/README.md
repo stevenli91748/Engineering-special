@@ -234,6 +234,9 @@
  
   * [利用虚拟网桥实现Docker容器的跨主机访问](https://www.cnblogs.com/ruiqingzhang/p/4463971.html)
    
+   
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/98L41dp/281956582865851.jpg" alt="281956582865851" border="0"></a>
+
      环境配置
      
         创建两台虚拟机
