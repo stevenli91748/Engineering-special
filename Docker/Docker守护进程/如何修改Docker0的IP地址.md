@@ -1,5 +1,9 @@
 
+[root]# ifconfig docker0 192.168.28.166 netmask 255.255.255.0
+[root]# ip addr show
+ens33 192.168.28.166
 
+但是如果重启docker, docker0又重新恢复到以前的默任IP 172.17.0.1
 
 
 # 有用的参考
