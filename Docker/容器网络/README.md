@@ -7,6 +7,25 @@
 
 # DOCKER容器的网络基础
   
+    docker 安装后自动会创建一个软交换机docker0，他既可以扮演二层的交换设备也可以扮演二层的网卡设备，不给地址的话就是交换机，给地址的话既能当交换机
+    又能当网卡。每当创建一个容器的时候就会创建一段网卡，一半连到容器上一半连到宿主机上，并且关联到了docker0，相当于用一根网线连接了容器和软交换
+    机docker0，
+
+    每当创建一个容器并分配地址以后，就会在物理主机上生成一个iptables规则
+    
+    docker有四种网络模型，若在容器创建时没有指定那么通通默认为第二种网络，桥接式网络，并且这个是nat桥不是物理桥。
+
+　　　　a、closed container封闭式容器，只有回环口。
+
+　　　　b、brdged container 桥接式容器，有虚拟网卡，连接到docker网桥上，默认网络地址为172.17.0.0/16  
+
+　　　　c、joined container 联盟式容器，让容器一部分名称空间是隔离的。
+
+　　　　d、open container 开放式容器，和物理机共享名称空间
+    
+    
+
+
   [docker0网桥设备](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/容器网络/docker0设备.md)|
   ---|
   
