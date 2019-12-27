@@ -1,7 +1,7 @@
 
 第一步  清除旧的dockers
 
-       [root]# sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
+       [root]#  yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
 
 第二步 在dockers安装前配置阿里云镜像倉库地址
 
