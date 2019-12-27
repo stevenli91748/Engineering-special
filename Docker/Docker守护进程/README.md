@@ -8,8 +8,8 @@
 [Docker修改daemon.json后无法启动的问题](https://www.cnblogs.com/cocowool/p/docker_daemon_log_driver.html)|[docker的daemon.json配置hosts无法启动docker服务](https://www.cnblogs.com/beiji/p/11675608.html)|
 ---|---|
 
-[Cannot connect to the Docker datemon at tcp://0.0.0.0:2375 is the docker daemon runing?](https://www.cnblogs.com/SH170706/p/10242505.html)|
----|
+[Cannot connect to the Docker datemon at tcp://0.0.0.0:2375 is the docker daemon runing?](https://www.cnblogs.com/SH170706/p/10242505.html)|[Job for docker.service failed because the control process exited with error code](https://blog.csdn.net/w1316022737/article/details/83692701)|
+---|---|
 
 
 # 有用的参考
