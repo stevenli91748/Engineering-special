@@ -14,10 +14,11 @@
     每当创建一个容器并分配地址以后，就会在物理主机上生成一个iptables规则
     
     docker有四种网络模型，若在容器创建时没有指定那么通通默认为第二种网络，桥接式网络，并且这个是nat桥不是物理桥。
-　　　　a、closed container封闭式容器，只有回环口。
-  　　　b、brdged container 桥接式容器，有虚拟网卡，连接到docker网桥上，默认网络地址为172.17.0.0/16  
-　　　　c、joined container 联盟式容器，让容器一部分名称空间是隔离的。
-　　　　d、open container 开放式容器，和物理机共享名称空间
+　　　　
+      a、closed container封闭式容器，只有回环口。
+  　  b、brdged container 桥接式容器，有虚拟网卡，连接到docker网桥上，默认网络地址为172.17.0.0/16  
+　　  c、joined container 联盟式容器，让容器一部分名称空间是隔离的。
+　　  d、open container 开放式容器，和物理机共享名称空间
     
     
 
