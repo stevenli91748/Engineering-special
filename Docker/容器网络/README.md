@@ -302,7 +302,7 @@
         
            vim /etc/docker/dameon.json
              { 
-               "bridge": "beidge0",                    //指定容器连接的网桥名字
+               "bridge": "bridge0",                    //指定容器连接的网桥名字
                “fixed-cidr”：“192.168.28.65/26”        // 用来限定为容器分配的IP地址范围
              }
              
@@ -313,7 +313,21 @@
         7. 分别在两个host上启动一个容器
         
             [root]# docker run -it --name host1-centtos centos
+            [root@7383647908] ip addr show
             
+            容器IP
+            eth17  192.168.28.66
+            
+            退出容器host1-centtos
+            
+            网桥IP
+            [root]# ip addr show
+            
+            bridge0  ip:  192.168.28.5/26    
+            
+            这证明该容器的IP是由网桥分配的并在分配的IP地址范围内
+            
+            [root]# ping ----------
             然后在容器中互相运行ping命令查看连接情况
    
    
