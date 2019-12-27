@@ -367,13 +367,12 @@
             [root]# ping ----------
             然后在容器中互相运行ping命令查看连接情况
    
-   
-
-
-
-
 
 # 使用Open vSwitch实现跨主机容器连接
+    
+    环
+    
+    
 
 # 使用weave实现跨主机容器连接
 
@@ -382,5 +381,5 @@
 # 有用的参考
 
 * [Docker 给运行中的容器设置端口映射的方法](https://www.jb51.net/article/127630.htm)
-* [Open vSwitch](https://blog.csdn.net/weixin_30276935/article/details/99874760)   
+   
    
