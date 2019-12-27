@@ -19,9 +19,9 @@
   　  
       b、brdged container 桥接式容器，有虚拟网卡，连接到docker网桥上，默认网络地址为172.17.0.0/16  
 
-　　  c、joined container 联盟式容器，让容器一部分名称空间是隔离的。
+      c、joined container 联盟式容器，让容器一部分名称空间是隔离的。
 
-　　  d、open container 开放式容器，和物理机共享名称空间
+      d、open container 开放式容器，和物理机共享名称空间
     
     
 
