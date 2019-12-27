@@ -237,15 +237,86 @@
    
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/98L41dp/281956582865851.jpg" alt="281956582865851" border="0"></a>
 
-     环境配置
+     由于Docker容器通过docker0 网桥实现同一主机间中，容器的ip地址分配和访问，也就是说容器中的IP 是由docker0网桥分配的，所以，如果希望Docker
+     跨主机访问，最简单的方式就是将不同主机的 docker0 网桥设置为同一网段。那么怎么实现跨主机呢？将本机网卡host eth0 端口也通过网桥来连接，
+     但是通过这种桥接，所有网卡端口都要在一个网段下，所以要对每个Docker守护进程对ip的分配做出限制
+     
+   环境配置
      
         创建两台虚拟机
-        host1 ip: 192.168.28.128
-        host2 ip: 192.168.28.130
-     
-     
-     
+        host1 ip: 192.168.28.5   端口 eth0
+        host2 ip: 192.168.28.8   端口 eth1
+        
+        网关 ： 192.168.28.2
+        
+        对容器ip的划分：
 
+        Host1: 192.168.28.64/26
+
+　　        地址范围： 192.168.28.65～192.168.28.126
+
+        Host2: 192.168.28.128/26
+
+　　        地址范围： 192.168.28.129～192.168.28.190
+     
+   需要的操作：
+
+       以下，以Host1 为例，Host2 上操作相似，只是网卡名字不一样
+    
+   方式一  使用默认的docker0 网桥
+   
+          
+          
+          
+   
+   方式二  使用新建虚拟网桥
+   
+       
+       1、删除旧网桥
+
+          [root]# systemctl stop docker
+          [root]# ip link set dev docker0 down
+          [root]# brctl delbr docker0
+          
+        2、手动创建一个新的网桥名称为 bridge0  
+        
+           [root]# brctl addbr bridge0
+           
+           为网桥分配一个同网段ip
+           [root]# ifconfig bridge0 192.168.28.5 netmask 255.255.255.0
+           [root]# ip link set dev bridge0 up
+        
+         3. 桥接本地网卡：
+         
+           [root]# brctl addif bridge0 ens33 
+            ens33  //本地网卡
+   
+         4. 查看是否已经创建bridge0
+        
+           [root]# ifconfig bridge0
+      
+        这里，我们就准备好了网桥设置
+    
+        下面我们来修改Docker的配置
+        5、创建dameon.json
+        
+           vim /etc/docker/dameon.json
+             { 
+               "bridge": "beidge0",                    //指定容器连接的网桥名字
+               “fixed-cidr”：“192.168.28.65/26”        // 用来限定为容器分配的IP地址范围
+             }
+             
+        6. 重启docker服务
+        
+          [root]# systemctl restart docker
+          
+        7. 分别在两个host上启动一个容器
+        
+            [root]# docker run -it --name host1-centtos centos
+            
+            然后在容器中互相运行ping命令查看连接情况
+   
+   
 
 
 
