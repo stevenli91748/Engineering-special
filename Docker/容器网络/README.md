@@ -241,8 +241,9 @@
      跨主机访问，最简单的方式就是将不同主机的 docker0 网桥设置为同一网段。那么怎么实现跨主机呢？将本机网卡host eth0 端口也通过网桥来连接，
      但是通过这种桥接，所有网卡端口都要在一个网段下，所以要对每个Docker守护进程对ip的分配做出限制
    
-*  [方式一  使用默认的docker0 网桥  ](#方式一--使用默认的docker0网桥)
-*  [方式二  使用新建虚拟网桥](#方式二--使用新建虚拟网桥)   
+*  [创建网桥的方式一  使用默认的docker0 网桥  ](#方式一--使用默认的docker0网桥)
+*  [创建网桥的方式二  使用新建虚拟网桥](#方式二--使用新建虚拟网桥)   
+
    环境配置
      
         创建两台虚拟机
@@ -267,7 +268,39 @@
     
 ##  方式一  使用默认的docker0网桥
    
+    1、删除旧网桥
+
+          [root]# systemctl stop docker
+          [root]# ip link set dev docker0 down
+          [root]# brctl delbr docker0
           
+     2、修改/etc/docker/daemon.json文件
+     
+        设置网桥docker0的IP 
+        [root]# vi /etc/docker/daemon.json
+        
+        {
+         "bip":"192.168.28.5",             //设置网桥docker0的IP
+         “fixed-cidr”：“192.168.28.64/26”     //-fixed-cidr用来限定为容器分配的IP地址范围
+        }
+
+      3. 启动网桥docker0
+      
+         [root]# ip link set dev docker0 up
+      
+      4. 桥接本地网卡
+      
+         [root]# brctl addif docker0 ens33
+          ens33  //本地网卡
+               
+
+      5. 重启docker服务
+      
+        [root]# systemctl daemon-reload
+        [root]# systemctl start docker
+        
+      6.    
+      
           
           
    
@@ -286,6 +319,8 @@
            
            为网桥分配一个同网段ip
            [root]# ifconfig bridge0 192.168.28.5 netmask 255.255.255.0
+           
+           启动网桥bridge0
            [root]# ip link set dev bridge0 up
         
          3. 桥接本地网卡：
