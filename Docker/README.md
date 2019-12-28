@@ -176,6 +176,11 @@
 [docker的简单搭建(java/tomcat 环境)](https://www.cnblogs.com/lemon-flm/p/7039880.html)|[Docker 搭建 Tomcat + Mysql](https://www.cnblogs.com/primadonna/p/10411857.html)|[基于docker+nginx+tomcat容器+mysql容器部署Java web项目实现负载均衡实战](https://blog.csdn.net/qq_36688928/article/details/93164651)|
 ---|---|---|
 
+[使用Docker部署tomcat、mysql、nginx静态服务器](https://blog.csdn.net/a745233700/article/details/80452862)|
+---|
+
+
+
 ---
 
 Go|[Swarm-管理docker集群](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Swarm/README.md)|[Compose-管理docker容器的应用部署](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Compose/README.md)|[Machine-安装docker](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Machine/README.md)|
