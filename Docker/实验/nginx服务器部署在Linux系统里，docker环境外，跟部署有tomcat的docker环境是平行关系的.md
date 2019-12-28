@@ -77,37 +77,49 @@
         
         http {
               include       mime.types;
+              
               default_type  application/octet-stream;
 
              sendfile        on;
-             #tcp_nopush     on;
+             
+             #tcp_nopush     on;
 
              #keepalive_timeout  0;
+             
              #keepalive_timeout  65;
 
              #gzip  on;
 
              upstream myweb{//名称要一致，我部署两台容器，两个tomcat服务器集群来服务，任何客户端向nginx发出的请求，这两台tomcat会随机
                               响应，weight值越大，让它去访问的机率就大。
-             server 192.168.159.130:8082 weight=2;
-             server 192.168.159.130:8081 weight=1;
-           }
-    server {
-        listen       80;
-        server_name  localhost;
+             
+             server 192.168.159.130:8082 weight=2;
+             
+             server 192.168.159.130:8081 weight=1;
+           
+           }
+        
+        server {
+               
+               listen       80;
+        
+               server_name  localhost;
 
-        #charset koi8-r;
+               #charset koi8-r;
 
-        #access_log  logs/host.access.log  main;
+               #access_log  logs/host.access.log  main;
 
-        location / {
-          proxy_pass http://myweb;        //实现nginx代理,随机访问tomcat1和tomcat2
-          proxy_redirect default;         //设置默认的nginx代理，而不是访问下面的默认的nginx的index.html页面
-         #root   /usr/local/nginx/html;
-          #index  index.html index.htm;
-        }
-         
- 
+              location / {
+                         
+                         proxy_pass http://myweb;        //实现nginx代理,随机访问tomcat1和tomcat2
+                         
+                         proxy_redirect default;         //设置默认的nginx代理，而不是访问下面的默认的nginx的index.html页面
+                         
+                         #root   /usr/local/nginx/html;
+                         
+                         #index  index.html index.htm;
+                         }
+              }
  
  
  
