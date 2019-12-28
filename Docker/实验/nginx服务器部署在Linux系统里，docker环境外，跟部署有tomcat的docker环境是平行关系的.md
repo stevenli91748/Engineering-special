@@ -73,7 +73,7 @@
          
  步骤三：更改nginx的配置文件实现负载均衡     
  
-   [root@localhost ~]# vi /usr/local/nginx/conf/nginx.conf
+        [root@localhost ~]# vi /usr/local/nginx/conf/nginx.conf
         
         http {
               include       mime.types;
