@@ -21,7 +21,7 @@
 
          启动tomcat容器
          
-         [root]# docker run -it -p 8081:8080 --name mytomcat-1 tomcat
+         [root]# docker run -it -p 8080:8080 --name mytomcat-1 tomcat
          在本控制终端无法操作，因tomcat在运行，要另开一控制终端
  
          操作：
@@ -44,5 +44,5 @@
  
          webapps目录下了，然后通过 systemctl restart docker 就可自解压了, 创建tracingfood 目录了
  
-         http://192.168.28.128:8081/tracingfood/index.jsp 就可以訪问了
+         http://192.168.28.128:8080/tracingfood/index.jsp 就可以訪问了
 
