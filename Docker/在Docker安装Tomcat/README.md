@@ -30,8 +30,8 @@
      
  # 部署war文件到tomcat的webapps目录    
 
-    我们把一个用IDEA工具写好的Java web项目Export-->war文件，然后把它上传到centOs宿主机里，我们需要把war文件放到tomcat的webapps目录下
-    但找不到tomcat容器的部署目录webapps，我们首先进入到容器里面，通过命令docker exec -it mytomcat bash进入容器才能找到/usr/loca/tomcat/webapps这个目录，把上传到centOs根目录下的tracingfood.war文件，使用命令docker cp /tracingfood.war NAMES/CONTAINAER ID /usr/local/tomcat/webapps，进行部署过去，然后通过命令docker exe CONTAINER ID ls /usr/local/tomcat/webapps进行查看部署的项目。
+我们把一个用IDEA工具写好的Java web项目Export-->war文件，然后把它上传到centOs宿主机里，我们需要把war文件放到tomcat的webapps目录下
+但找不到tomcat容器的部署目录webapps，我们首先进入到容器里面，通过命令docker exec -it mytomcat bash进入容器才能找到/usr/loca/tomcat/webapps这个目录，把上传到centOs根目录下的tracingfood.war文件，使用命令docker cp /tracingfood.war NAMES/CONTAINAER ID /usr/local/tomcat/webapps，进行部署过去，然后通过命令docker exe CONTAINER ID ls /usr/local/tomcat/webapps进行查看部署的项目。
 
  在本控制终端无法操作，因tomcat在运行，要另开一控制终端
  
