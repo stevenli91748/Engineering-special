@@ -37,6 +37,8 @@
  
  操作：
  
+ 进入正在运行的tomcat容器，并启动Linux命令行模式
+ 
  [root]# docker exec -it mytomcat bash
  
  [root@38390307305:/usr/local/tomcat]# ls -l
