@@ -1,6 +1,15 @@
 
 <a href="https://ibb.co/VCJPCPg"><img src="https://i.ibb.co/mybMyM9/20180830161450776.png" alt="20180830161450776" border="0"></a><br /><a target='_blank' href='https://statewideinventory.org/chevrolet-0-60-times'>2014 chevy cruze 1.4 turbo 0 60</a><br />
 
+负载均衡原理：
+
+      基于centOs-7的环境，安装nginx，运行docker里的两个以上的tomcat服务器，一般情况访问Java web项目的jsp页面，通过直接tomcat来访问的，但是我
+      们现在不通过对tomcat进行访问页面，而是通过直接访问nginx进行访问，即你发出请求到nginx,nginx再request到tomcat,tomcat然后reponse
+      到nginx,nginx 把接收到的服务转化为视图响应到客户端，这个过程，ngixn实行了拦截，或者说是代理，随机访问其中任何一个tomcat提供的服务，如果
+      其中的一个tomcat无法提供服务，nginx就访问另一个tomcat.
+
+
+
 
 步骤一：  部署项目.war文件到tomcat的webapps目录下
         
