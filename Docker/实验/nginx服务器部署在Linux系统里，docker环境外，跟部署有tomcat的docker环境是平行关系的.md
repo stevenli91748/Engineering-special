@@ -12,13 +12,13 @@
 
          启动tomcat容器
          
-         [root]# docker run -it -p 9090:8080 --name mytomcat tomcat
+         [root]# docker run -it -p 9090:8080 --name mytomcat-1 tomcat
          在本控制终端无法操作，因tomcat在运行，要另开一控制终端
  
          操作：
  
          进入正在运行的tomcat容器，并启动Linux命令行模式
-         [root]# docker exec -it mytomcat bash
+         [root]# docker exec -it mytomcat-1 bash
          [root@38390307305:/usr/local/tomcat]# ls -l
           -------------------webapps目录
           ctrl+P+Q   退出tomcat容器
@@ -26,7 +26,7 @@
          重新进入tomcat容器，只能用 docker exec -it mytomcat bash 命令，而不能用 docker attach mytomcat 命令，用 attch 命令会
          让tomcat shutdown
  
-         [root]# docker exec -it mytomcat bash
+         [root]# docker exec -it mytomcat-1 bash
  
          [root@38390307305:/usr/local/tomcat]# cd webapps
  
