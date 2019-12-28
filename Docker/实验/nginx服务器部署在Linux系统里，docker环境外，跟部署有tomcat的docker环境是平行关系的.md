@@ -14,7 +14,7 @@
      基于centos-7环境，安装docker和nginx,在docker里搭建两个或两个以上tomcat集群（多个tomcat容器)和两个mysql容器，并成功地把web应用程序部署
      到docker里的tomcat集群里，tomcat不能被直接訪问，所有的訪问都通过Nginx来分发。
 
-步骤一： 
+步骤一：安装 nginx tomcat mysql 
 
        启动docker
        
@@ -68,5 +68,51 @@
  
          webapps目录下了，然后通过 systemctl restart docker 就可自解压了, 创建tracingfood 目录了
  
-         http://192.168.159.130:8081/tracingfood/index.jsp 就可以訪问了
+         http://192.168.159.130:8081/tracingfood/login.jsp 就可以訪问了
+         http://192.168.159.130:8082/tracingfood/login.jsp 就可以訪问了
+         
+ 步骤三：更改nginx的配置文件实现负载均衡     
+ 
+   [root@localhost ~]# vi /usr/local/nginx/conf/nginx.conf
+        
+        http {
+              include       mime.types;
+              default_type  application/octet-stream;
 
+             sendfile        on;
+             #tcp_nopush     on;
+
+             #keepalive_timeout  0;
+             #keepalive_timeout  65;
+
+             #gzip  on;
+
+             upstream myweb{//名称要一致，我部署两台容器，两个tomcat服务器集群来服务，任何客户端向nginx发出的请求，这两台tomcat会随机
+                              响应，weight值越大，让它去访问的机率就大。
+             server 192.168.159.130:8082 weight=2;
+             server 192.168.159.130:8081 weight=1;
+           }
+    server {
+        listen       80;
+        server_name  localhost;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+          proxy_pass http://myweb;        //实现nginx代理,随机访问tomcat1和tomcat2
+          proxy_redirect default;         //设置默认的nginx代理，而不是访问下面的默认的nginx的index.html页面
+         #root   /usr/local/nginx/html;
+          #index  index.html index.htm;
+        }
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
