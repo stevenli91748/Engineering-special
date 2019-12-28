@@ -182,13 +182,14 @@
 [Docker容器化部署尝试——多容器通信(node+mongoDB+nginx)](https://www.jb51.net/article/153042.htm)|[Docker容器使用jenkins部署web项目(总结)](https://www.jb51.net/article/146319.htm)|[docker部署rabbitmq集群的实现方法](https://www.jb51.net/article/144748.htm)|
 ---|---|---|
 
-[docker的简单搭建(java/tomcat 环境)](https://www.cnblogs.com/lemon-flm/p/7039880.html)|[Docker 搭建 Tomcat + Mysql](https://www.cnblogs.com/primadonna/p/10411857.html)|[基于docker+nginx+tomcat容器+mysql容器部署Java web项目实现负载均衡实战](https://blog.csdn.net/qq_36688928/article/details/93164651)|
+[docker的简单搭建(java/tomcat 环境)](https://www.cnblogs.com/lemon-flm/p/7039880.html)|[Docker 搭建 Tomcat + Mysql](https://www.cnblogs.com/primadonna/p/10411857.html)|[基于docker+nginx+tomcat容器+mysql容器部署Java web项目实现负载均衡实战](https://blog.csdn.net/liqz666/article/details/82222511)|
 ---|---|---|
 
 [使用Docker部署tomcat、mysql、nginx静态服务器](https://blog.csdn.net/a745233700/article/details/80452862)|[如何在docker里搭建自己的云数据库](https://blog.csdn.net/liqz666/article/details/103277559)|
 ---|---|
 
-
+[docker的各种配置](https://blog.csdn.net/qq_36688928/article/details/93164651)|
+---|
 
 
 
