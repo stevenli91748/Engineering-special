@@ -35,18 +35,26 @@
 
  在本控制终端无法操作，因tomcat在运行，要另开一控制终端
  
- 操作
+ 操作：
+ 
  [root]# docker exec -it mytomcat bash
  
  [root@38390307305:/usr/local/tomcat]# ls -l
+ 
  -------------------webapps目录
+ 
  ctrl+P+Q   退出tomcat容器
+ 
  [root]# docker cp /tracingfood.war mytomcat: /usr/local/tomcat/webapps
  
  重新进入tomcat容器，只能用 docker exec -it mytomcat bash 命令，而不能用 docker attach mytomcat 命令，用 attch 命令会让tomcat shutdown
+ 
  [root]# docker exec -it mytomcat bash
+ 
  [root@38390307305:/usr/local/tomcat]# cd webapps
+ 
  [root@38390307305:/usr/local/tomcat/webapps]# ls 
+ 
  -------------------tracingfood.war
  
  该文件已部署到tomcat的webapps目录下了，然后通过 docker restart mytomcat 就可自解压了, 创建tracingfood 目录了
