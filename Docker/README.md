@@ -191,7 +191,8 @@
 [docker的各种配置](https://blog.csdn.net/qq_36688928/article/details/93164651)|[在Docker环境构建、打包和运行Spring Boot应用](http://dockone.io/article/9530)|[使用 docker 高效部署前端应用](https://github.com/shfshanyue/op-note/blob/master/deploy-fe-with-docker.md)|
 ---|---|---|
 
-
+[Node 项目从构建到使用 Jenkins 与 Docker 实现自动化部署](http://dockone.io/article/9507)|
+---|
 
 ---
 
