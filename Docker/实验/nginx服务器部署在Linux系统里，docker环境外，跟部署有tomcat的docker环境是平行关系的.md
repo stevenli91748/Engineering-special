@@ -124,7 +124,47 @@
  
  
  
+ 步骤四： 防火墙的设置
  
+      启动nginx的代理服务，每配置一次，就要重启一次，重启之后，需要编辑编辑防火墙的设置，这里一定要注意，你要配置80的端口，你只能问nginx了，
+      nginx代理去随机访问任意docker里的tomcat容器，你再通过http://192.168.159.130:8082/tracingfood/userlogin.jsp或
+      者http://192.168.159.130:8081/tracingfood/userlogin.jsp 就不能访问到tomcat响应的页面了，你要先去访问nginx，nginx再去访问tomcat,
+      然后把相应的页面响应给客户端
  
+    
+     启动Nginx 服务
+     
+        [root]# cd /usr/local/nginx/sbin ./nginx            //启动nginx的服务
+        
+     重启动防火墙
+     
+       [root]# systemctl restart iptables.service 
+       [root]# vi /etc/sysconfig/iptables
+       
+       :INPUT ACCEPT [0:0]
+       :FORWARD ACCEPT [0:0]
+       :OUTPUT ACCEPT [0:0]
+       -A INPUT -m state --state RATED,ESTABLISHED -j ACCEPT
+       -A INPUT -p icmp -j ACCEPT
+       -A INPUT -i lo -j ACCEPT
+       -A INPUT -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
+       -A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT
+       -A INPUT -m state --state NEW -m tcp -p tcp --dport 3306 -j ACCEPT
+       -A INPUT -j REJECT --reject-with icmp-host-prohibited
+       -A FORWARD -j REJECT --reject-with icmp-host-prohibited
+       COMMIT
+       
+       看到没，防火墙里有nginx的80端口，mysql的3306端口，你都可以通过ip地址对其进行远程访问，如果你还想直接访问tomcat提供的服务，好办，
+       在3306下面添加一个8080的端口就ok了
+       
+       -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
  
- 
+       如果设置了8080端口，就可以在浏览器直接訪问tomcat，不需要通过Nginx服务
+       
+       http://192.168.159.130:8081/tracingfood/login.jsp 就可以訪问了
+       
+  步骤五：      
+  
+       下面是客户端向nignx发出请求，nginx向tomcat1或tomcat2发出请求，weight值越大，分配到哪个服务器的概率就大，下面的页面可能是tomcat1也可
+       能是tomcat2相应的的，而不是直接对tomcat服务器进行访问，负载均衡说的就是，假设有多台tomcat服务器，如果其中的有一台坏掉了，这台无法提供服
+       务，其他的服务器依然可以提供服务，这个时候nginx负载均衡的作用就体现
