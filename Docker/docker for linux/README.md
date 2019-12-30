@@ -1,3 +1,8 @@
+* [方式一：重头到尾，一步一步安装配置docker](#重头到尾-一步一步安装配置docker)
+* [方式二：安装docker后 重新配置阿里云镜像加速](#在命令行重新配置阿里云镜像加速)
+
+
+# 重头到尾 一步一步安装配置docker
 
 第一步  清除旧的dockers
 
@@ -31,6 +36,16 @@
     5. sudo systemctl restart docker
     
 
+# 在命令行重新配置阿里云镜像加速
+
+    
+   [root]# cp -n /lib/systemd/system/docker.service /etc/systemd/system/docker.service
+   
+   [root]# sed -i "s|ExecStart=/usr/bin/docker daemon|ExecStart=/usr/bin/docker daemon --registry-mirror=https://pee6w651.mirror.aliyuncs.com|g" /etc/systemd/system/docker.service
+   
+   [root]# systemctl daemon-reload
+   
+   [root]# service docker restart
 
 
 
