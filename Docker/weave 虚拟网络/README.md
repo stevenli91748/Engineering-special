@@ -1,4 +1,9 @@
 
+# 下载，安装Weave
+1.  [root]# wget http://git.io/weave -o /urs/local/bin/weave
+2.  [root]# chmod a+x /usr/local/bin/weave
+
+
 
 
 
