@@ -19,6 +19,13 @@
       mountpoint : /var/lib/docker/volumes/v1/data
     }
     
+    [root]# docker pull  docker.io/percona/percona-xtradb-cluster
+    
+   境像名太长，修改境像名
+   
+   [root]# docker tag  docker.io/percona/percona-xtradb-cluster pxc
+    
+    
     创建网段给MySQL PXC网段的集群使用
     [root]# docker network create --subnet 172.18.0.0/26 net1
     
@@ -27,8 +34,8 @@
                        -v v1:/var/lib/mysql
                        -e MYSQL_ROOT_PASSWORD=abc123456
                        -e CLUSTER_NAME=PXC
-                       -e XTRABACKUP_PASSWORD=abc123456
-                       --privileged --name=mysql_node1 --net=net1 --ip 172.18.0.2
+                       -e XTRABACKUP_PASSWORD=abc123456        // 数据库节点之间同步所用的密码
+                       --privileged --name=mysql_node1 --net=net1 --ip 172.18.0.2 pxc
     
     
     
