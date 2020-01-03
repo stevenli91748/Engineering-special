@@ -21,9 +21,9 @@
     
     [root]# docker pull  docker.io/percona/percona-xtradb-cluster
     
-   境像名太长，修改境像名
+    境像名太长，修改境像名
    
-   [root]# docker tag  docker.io/percona/percona-xtradb-cluster pxc
+    [root]# docker tag  docker.io/percona/percona-xtradb-cluster pxc
     
     
     创建网段给MySQL PXC网段的集群使用
