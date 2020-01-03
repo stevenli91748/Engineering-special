@@ -26,6 +26,8 @@
 ## 创建容器的虚拟网段
 
     DOCKER默认的网段  172.17.0.0
+  
+    创建网段
 
     你可以指定IP地址域来创建虚拟网段或不指定IP地址域来创建虚拟网段
     [root]# docker network create --subnet 172.18.0.0/24 mynet1
@@ -47,6 +49,9 @@
     }
 
 
+   删除网段
+   
+    [root]# docker network rm mynet1
 
 
 
