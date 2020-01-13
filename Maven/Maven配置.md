@@ -10,12 +10,12 @@
 
 6. 在你的maven目录下找conf文件夹，下面有个settings文件，打开它，找到<mirror>标签，添加下列代码
   
-  <mirror>
-        <id>nexus-aliyun</id>
-        <mirrorOf>central</mirrorOf>
-        <name>Nexus aliyun</name>
-        <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-	</mirror
+        <mirror>
+         <id>nexus-aliyun</id>
+         <mirrorOf>central</mirrorOf>
+         <name>Nexus aliyun</name>
+         <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+	</mirror>
 
 7. maven默认的本地的仓储位置是在c盘你的用户名下的“.m2”文件夹中，如果不想让它把从网上下载下来的jar包存在c盘，可以修改其默认仓储位置，依旧是找到刚才的settings文件，找到这行：
 
