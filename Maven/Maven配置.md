@@ -23,4 +23,4 @@
   
   这样我们就把默认的jar存储位置改在了f盘的repository目录下
 
-
+很容易你就发现了springframework，里面存放了spring框架所使用的基本上所有的jar包，
