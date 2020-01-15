@@ -281,6 +281,10 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 
 
 # 视频
+
+  * [千锋达摩院】微服务架构 2.0（上）Linux + Docker + Kubernetes +SpringBoot+SpringCloud ](https://www.bilibili.com/video/av62628434/?p=2)
+  * [千锋达摩院】微服务架构 2.0（下）Linux + Docker + Kubernetes +SpringBoot+SpringCloud](https://www.bilibili.com/video/av74438452/?spm_id_from=333.788.videocard.1)
+
   * [高级Pass卡—领略Docker负载均衡及批量编排之美](https://www.bilibili.com/video/av54371967?from=search&seid=5320849185764424951)
   * [高级Pass卡—撑起双十一的几十万docker容器](https://www.bilibili.com/video/av51825449?from=search&seid=5320849185764424951)
   * [Docker 容器化实战项目（完）](https://www.bilibili.com/video/av58185419/?spm_id_from=333.788.videocard.0)
