@@ -3,7 +3,7 @@
 # [Setting.xml](https://maven.apache.org/settings.html)
 
 
-[Maven配置](https://github.com/stevenli91748/Engineering-special/blob/master/Maven/Maven配置.md)|[创建Maven聚合工程](https://www.bilibili.com/video/av66688878?from=search&seid=1510232123322665339)|[创建Maven项目并整合Tomcat发布Maven项目](https://www.bilibili.com/video/av66142485/?spm_id_from=333.788.videocard.2)|
+[Maven配置](https://github.com/stevenli91748/Engineering-special/blob/master/Maven/Maven配置.md)|[创建Maven聚合工程](https://www.bilibili.com/video/av66688878?from=search&seid=1510232123322665339)|[创建Maven项目并整合Tomcat发布Maven项目](https://www.bilibili.com/video/av66142485/?spm_id_from=333.788.videocard.2)|
 ---|---|---|
 
 
