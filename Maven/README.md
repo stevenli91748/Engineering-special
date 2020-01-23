@@ -52,6 +52,7 @@ test  install  deploy
 * [Maven入门指南（一）](http://ifeve.com/maven-1/)
 * [Maven入门指南（二）](http://ifeve.com/maven-2/)
 * [从maven开始你的spring开发](https://blog.csdn.net/u011055819/article/details/81054242)
+* [Maven中如何配置WAR依赖WAR包](https://blog.csdn.net/kobejayandy/article/details/8143930)
 # 已安装的Maven
 安装目录
 c:\apache-maven-3.6.0
