@@ -55,6 +55,7 @@ test  install  deploy
 * [Maven中如何配置WAR依赖WAR包](https://blog.csdn.net/kobejayandy/article/details/8143930)
 * [手把手教你一个maven的war项目如何引用另外一个war项目](https://blog.csdn.net/lzh657083979/article/details/78254104)
 * [maven的三种工程pom、jar、war的区别-- 一个项目的完整例子](https://blog.csdn.net/houjx3/article/details/82344495)
+* [创建pom工程](https://blog.csdn.net/yuwenlanleng/article/details/84644216)
 # 已安装的Maven
 安装目录
 c:\apache-maven-3.6.0
