@@ -54,6 +54,7 @@ test  install  deploy
 * [从maven开始你的spring开发](https://blog.csdn.net/u011055819/article/details/81054242)
 * [Maven中如何配置WAR依赖WAR包](https://blog.csdn.net/kobejayandy/article/details/8143930)
 * [手把手教你一个maven的war项目如何引用另外一个war项目](https://blog.csdn.net/lzh657083979/article/details/78254104)
+* [maven的三种工程pom、jar、war的区别](https://blog.csdn.net/houjx3/article/details/82344495)
 # 已安装的Maven
 安装目录
 c:\apache-maven-3.6.0
