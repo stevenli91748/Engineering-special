@@ -44,6 +44,7 @@ test  install  deploy
 * [Maven基础篇（IDEA版](https://www.bilibili.com/video/av54119831/?spm_id_from=333.788.videocard.2)
 * [尚硅谷-2018-Maven课程](https://www.bilibili.com/video/av71959337?from=search&seid=3444294724672188002)
 * [maven高级应用-实战【IDEA版】](https://www.bilibili.com/video/av56964550/?spm_id_from=333.788.videocard.5)
+* [java高并发分布式SSM项目实战视频教](https://space.bilibili.com/7028047/channel/detail?cid=40223)
 # 有用的参考
 * [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
 * [Maven官方中心库](https://mvnrepository.com)
