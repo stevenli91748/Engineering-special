@@ -8,6 +8,8 @@
 * [1-4 GitHub完全使用指南 (从0到1开发java高并发分布式SSM项目实](https://www.bilibili.com/video/av24020960)
 
 
+* [idea下使用git](https://www.bilibili.com/video/av43156881?from=search&seid=11280213641014520407)
+
 # 知识点
 
 团队协作利器Git
