@@ -9,6 +9,9 @@
 [Maven+Tomcat热部署](https://github.com/stevenli91748/Engineering-special/blob/master/Maven/Maven%2BTomcat热部署.md)|[Maven Tomcat8插件在聚合工程中的布署](https://www.bilibili.com/video/av66798233)|[前后端分离+maven+okhttp+多模块模拟微服务](https://www.bilibili.com/video/av74433362/?spm_id_from=333.788.videocard.6)|
 ---|---|---|
 
+[tomcat7插件将maven_web项目热部署到远程服务器](https://www.bilibili.com/video/av82792639?from=search&seid=13371764215596198302)|
+---|
+
 
 # 知识点
 
