@@ -3,6 +3,7 @@
 
 # 视频
 
+  通过以下两个视频就可了解git操作的全部步骤，包括如何生成SSH key上传文件到github
 * [1-3 代码托管Git的命令使用 (从0到1开发java高并发分布式SSM项目](https://www.bilibili.com/video/av23710837)
 * [1-4 GitHub完全使用指南 (从0到1开发java高并发分布式SSM项目实](https://www.bilibili.com/video/av24020960)
 
