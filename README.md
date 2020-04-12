@@ -3,6 +3,10 @@
 
 # [项目工程化面试](https://github.com/stevenli91748/Engineering-special/blob/master/Interview/README.md)
 
+
+* [套路拆解:大厂是如何保证代码质量的！](https://www.youtube.com/watch?v=k7HgdYoLri8)
+
+
 # 前端工程化
 
 ---
