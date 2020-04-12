@@ -5,7 +5,7 @@
 
 
 * [套路拆解:大厂是如何保证代码质量的！](https://www.youtube.com/watch?v=k7HgdYoLri8)
-
+* [如何提高工作效率？如何写出高质量的代码？如何成长](https://www.youtube.com/watch?v=H06N-WqldZ0)
 
 # 前端工程化
 
