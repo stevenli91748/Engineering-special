@@ -180,6 +180,9 @@
 [基于docker+nginx+tomcat容器+mysql容器部署Java web项目实现负载均衡实战](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/实验/基于docker%2Bnginx%2Btomcat容器%2Bmysql容器部署Java%20web项目实现负载均衡实战.md)|[不用网络，创建一个点到点连接](https://yeasy.gitbooks.io/docker_practice/advanced_network/ptp.html)|
 ---|---|
 
+[实战在Docker中使用CI/CD](https://yeasy.gitbooks.io/docker_practice/cases/ci/)|[如何调试 Docker](https://yeasy.gitbooks.io/docker_practice/appendix/debug.html)|
+---|---|
+
 
 ---
 
