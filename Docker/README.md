@@ -3,6 +3,12 @@
 ### Docker服务端默认配置文件,docker1.12版本之前是修改vim /etc/default/docker的DOCKER_OPTS参数的，但是1.12之后docker建议在/etc/docker/daemon.json文件中修改docker启动参数，修改完后，通过   [root]# dockerd     命令启动守护进程
 ### Docker服务启动文件 ： /usr/lib/systemd/system/docker.service
 
+## 如果你只想在tomcat 8上运行Java Web应用程序，可以只使用：
+
+      docker run tomcat:8 -v HelloWorld.war:/usr/local/tomcat/webapps/Helloworld.war
+
+
+---
 
 <details>
 <summary>docker启动参数</summary>
@@ -171,8 +177,8 @@
 [在容器中部署静态网站](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在容器中部署静态网站/README.md)|[Docker的远程訪问](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Docker的远程訪问/README.md)|
 ---|---|
 
-[基于docker+nginx+tomcat容器+mysql容器部署Java web项目实现负载均衡实战](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/实验/基于docker%2Bnginx%2Btomcat容器%2Bmysql容器部署Java%20web项目实现负载均衡实战.md)|[不用网络，创建一个点到点连接](https://yeasy.gitbooks.io/docker_practice/advanced_network/ptp.html)
----|
+[基于docker+nginx+tomcat容器+mysql容器部署Java web项目实现负载均衡实战](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/实验/基于docker%2Bnginx%2Btomcat容器%2Bmysql容器部署Java%20web项目实现负载均衡实战.md)|[不用网络，创建一个点到点连接](https://yeasy.gitbooks.io/docker_practice/advanced_network/ptp.html)|
+---|---|
 
 
 ---
