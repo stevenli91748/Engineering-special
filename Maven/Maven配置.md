@@ -30,17 +30,16 @@
 
    在你的maven目录下找conf文件夹，下面有个settings文件，打开它，找到<Profiles>标签，添加下列代码
    
-   <profile>
-      <id>jdk-1.8</id>
-
-      <activation>
-        <activeByDefault>true</activeByDefault>
-        <jdk>1.8</jdk>
-      </activation>
-      <properties>
+    <profile>
+       <id>jdk-1.8</id>
+       <activation>
+         <activeByDefault>true</activeByDefault>
+         <jdk>1.8</jdk>
+       </activation>
+       <properties>
 	   <maven.compiler.source>1.8</maven.compiler.source>
 	   <maven.compiler.target>1.8</maven.compiler.target>
 	   <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-      </properties>
-   </profile>
+       </properties>
+    </profile>
    
