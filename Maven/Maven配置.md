@@ -24,3 +24,22 @@
   这样我们就把默认的jar存储位置改在了f盘的repository目录下
 
 很容易你就发现了springframework，里面存放了spring框架所使用的基本上所有的jar包，
+
+8. 设置JDK 的版本号
+
+   在你的maven目录下找conf文件夹，下面有个settings文件，打开它，找到<Profiles>标签，添加下列代码
+   
+   <profile>
+      <id>jdk-1.8</id>
+
+      <activation>
+        <activeByDefault>true</activeByDefault>
+        <jdk>1.8</jdk>
+      </activation>
+      <properties>
+	   <maven.compiler.source>1.8</maven.compiler.source>
+	   <maven.compiler.target>1.8</maven.compiler.target>
+	   <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+      </properties>
+   </profile>
+   
