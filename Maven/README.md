@@ -78,6 +78,7 @@ test  install  deploy
 * [maven的三种工程pom、jar、war的区别-- 一个项目的完整例子](https://blog.csdn.net/houjx3/article/details/82344495)
 * [创建pom工程](https://blog.csdn.net/yuwenlanleng/article/details/84644216)
 * [淘淘商城第一天：使用IDEA搭建基于maven的SSM聚合项目](https://blog.csdn.net/qq_36349200/article/details/79682758)
+* [淘淘商城IDEA开发第二天--框架整合,后台系统搭建](https://blog.csdn.net/baidu_34324281/article/details/83020174?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
 * [发布项目至maven中央仓库汇总（流程+问题）](https://zhuanlan.zhihu.com/p/41650855)
 
 # 已安装的Maven
