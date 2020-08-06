@@ -8,7 +8,7 @@
 * [如何提高工作效率？如何写出高质量的代码？如何成长](https://www.youtube.com/watch?v=H06N-WqldZ0)
 * [大,小公司程序员的工作差别到底在哪 ](https://www.youtube.com/watch?v=oINHdLEDmOk)
 * [大厂程序员是如何做敏捷开发的?大公司程序员编程开发流程|大公司是如何快速响应用户需求并实现产品的持续交付](https://www.youtube.com/watch?v=Mb6WHtja2fs)
-
+* [项目研发流程规范](https://www.jianshu.com/p/ece3cec561af)
 
 
 # 前端工程化
