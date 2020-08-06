@@ -174,6 +174,7 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
 3. 数据规范
 4. 日志规范
 5. 安全规范
+   * [软件研发安全规范](https://www.jianshu.com/p/a638bb1648b6)
 6. 测试用例规范
 7. bugfix规范
 8. CI/CD系统
