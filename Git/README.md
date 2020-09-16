@@ -1,5 +1,8 @@
 
 
+[精尽 Git 学习指南](http://svip.iocoder.cn/Git/tutorials/)|
+---|
+
 
 # 视频
 
