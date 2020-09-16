@@ -1,4 +1,10 @@
 # 目录
+
+[精尽 Jenkins 学习指南](http://svip.iocoder.cn/Jenkins/tutorials/)|
+---|
+
+
+
 * [Jenkins 概述](#Jenkins-概述)
 
 
