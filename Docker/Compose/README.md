@@ -20,6 +20,11 @@ SocketPlane是Docker最近收购的产品，猜想应该是为了强化Docker的
 </details>
 
 
+[Docker Compose install on linux](https://docs.docker.com/compose/install/)|
+---|
+
+
+
 # 视频
 
 * [Docker Compose 部署 GitLab 教程](https://www.bilibili.com/video/av68205549/?spm_id_from=333.788.videocard.10)
