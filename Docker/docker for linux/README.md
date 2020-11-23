@@ -24,7 +24,9 @@
       [root]# yum install docker-ce-18.09.0 docker-ce-cli--18.09.0 containerd.io
 
 第四步 启动docker
+     
      [root]# systemctl enable docker
+     
      [root]# systemctl start docker
 
 
