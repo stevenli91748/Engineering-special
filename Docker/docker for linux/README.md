@@ -29,6 +29,10 @@
      
      [root]# systemctl start docker
 
+第五步 验证下是否安装成功
+
+     [root]# docker -v
+     Docker version 19.0.3, builded 546978
 
 
 当在docker中下载images非常慢时，可配置阿里云镜像加速
