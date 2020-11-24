@@ -9,4 +9,4 @@
 
 测试一下是否安装成功
 [root]> docker-compose --version
-Docker-compose  version 1.23.2 , builded 458962
+Docker-compose  version 1.25.0 , builded 458962
