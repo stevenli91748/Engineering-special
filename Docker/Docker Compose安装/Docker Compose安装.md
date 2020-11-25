@@ -1,5 +1,5 @@
 
-
+首先安装Docker 在extend 虚拟机上，安装Docker见上一讲
 
 [root]>  curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
