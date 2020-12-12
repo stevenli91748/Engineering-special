@@ -12,3 +12,16 @@
 [root]> docker-compose --version
 
 Docker-compose  version 1.25.0 , builded 458962
+
+
+
+好了，如果想指定 docker-compose 的版本，先卸载：
+
+# pip uninstall docker-compose
+
+再安装指定版本：
+
+# pip install docker-compose==1.5.2
+至此，docker-compose 指定版本成功！
+
+
