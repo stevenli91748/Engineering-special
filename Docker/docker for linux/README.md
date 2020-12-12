@@ -21,7 +21,7 @@
 
 第三步 安装docker
 
-      [root]# yum install docker-ce-18.09.0 docker-ce-cli--18.09.0 containerd.io
+      [root]# yum install docker-ce-18.09.0 docker-ce-cli-18.09.0 containerd.io
 
 第四步 启动docker
      
