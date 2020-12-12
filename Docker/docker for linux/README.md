@@ -29,19 +29,12 @@
        查看选择docker-ce各版本
        [root@localhost /etc/yum.repos.d/]# yum list docker-ce --showduplicates|sort –r
        
-      docker-ce.x86...................3.19.03 .................
+      docker-ce.x86...................3.19.03.13 .................       //表示版本  v19.03.13
        
-      
-      
-      
-      
-      
-      
-      
 
 第三步 安装docker
 
-      [root]# yum install docker-ce-18.09.0 docker-ce-cli-18.09.0 containerd.io
+      [root]# yum install docker-ce-19.03.13 docker-ce-cli-19.03.13 containerd.io
 
 第四步 启动docker
      
