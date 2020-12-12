@@ -18,6 +18,26 @@
       
       [root]# yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
       
+      查看yum仓库中是否安装了docker-ce仓库
+      
+      [root]# cd /etc/yum.repos.d/
+      [root@localhost /etc/yum.repos.d/]# ll
+      
+        ........
+        docker-ce.repo
+      
+       查看选择docker-ce各版本
+       [root@localhost /etc/yum.repos.d/]# yum list docker-ce --showduplicates|sort –r
+       
+      docker-ce.x86...................3.19.03 .................
+       
+      
+      
+      
+      
+      
+      
+      
 
 第三步 安装docker
 
@@ -46,7 +66,6 @@
     4. sudo systemctl daemon-reload
     5. sudo systemctl restart docker
     
-
 # 在命令行重新配置阿里云镜像加速
 
     
