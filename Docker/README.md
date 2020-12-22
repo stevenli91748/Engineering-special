@@ -332,6 +332,7 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
  * [使用 Docker 搭建第一个 Node 项目到服务器](http://dockone.io/article/9606)
 # 有用的文档
   * [IDEA的Docker插件]
+    * [IDEA中使用Docker插件](https://mrbird.cc/IDEA-Docker-Plugin.html)
     * [IDEA的Docker插件实战(Dockerfile篇)](https://blog.csdn.net/boling_cavalry/article/details/100051325)
     * [IDEA的Docker插件实战(Docker Image篇)](https://xinchen.blog.csdn.net/article/details/100062008)
     * [IDEA的Docker插件实战(Docker-compose篇)](https://xinchen.blog.csdn.net/article/details/100064934)
