@@ -331,6 +331,10 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
  * [Docker部署SpringBoot快速入门[千锋南京]【idea集成docker实现镜像](https://www.bilibili.com/video/av80606083?from=search&seid=6827222005976129424)
  * [使用 Docker 搭建第一个 Node 项目到服务器](http://dockone.io/article/9606)
 # 有用的文档
+  * [IDEA的Docker插件]
+    * [IDEA的Docker插件实战(Dockerfile篇)](https://blog.csdn.net/boling_cavalry/article/details/100051325)
+    * [IDEA的Docker插件实战(Docker Image篇)](https://xinchen.blog.csdn.net/article/details/100062008)
+    * [IDEA的Docker插件实战(Docker-compose篇)](https://xinchen.blog.csdn.net/article/details/100064934)
 * [Docker 和 Kubernetes：给程序员的快速指南](https://zhuanlan.zhihu.com/p/39937913)
 * [既然有了Docker， 为什么还要Kubernetes](https://zhuanlan.zhihu.com/p/77308665)
 * [Docker---从入门到实战](https://yeasy.gitbooks.io/docker_practice/network/port_mapping.html)
