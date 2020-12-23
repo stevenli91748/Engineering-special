@@ -1,6 +1,10 @@
 # Engineering-special
 项目工程化专题
 
+[如何基于 K8s 构建下一代 DevOps 平台？](https://www.kubernetes.org.cn/8351.html)|
+---|
+
+
 # [项目工程化面试](https://github.com/stevenli91748/Engineering-special/blob/master/Interview/README.md)
 
 
