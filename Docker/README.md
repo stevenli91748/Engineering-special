@@ -354,3 +354,6 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 * [Docker Compose搭建mycat读写分离](https://blog.csdn.net/wang_jingj/article/details/54023892)
 * [远程连接docker daemon，Docker Remote API](https://deepzz.com/post/dockerd-and-docker-remote-api.html)
 * [详解docker使用阿里云Docker镜像库加速(修订版)](https://www.jb51.net/article/113041.htm)
+* [docker-compose 安装FastDFS](http://www.dev-share.top/2019/11/13/docker-compose-%e5%ae%89%e8%a3%85fastdfs/)
+* [docker、kubernetes安装部署fastdfs文件集群系统](http://www.dev-share.top/2019/12/04/docker%e3%80%81kubernetes%e5%ae%89%e8%a3%85%e9%83%a8%e7%bd%b2fastdfs%e6%96%87%e4%bb%b6%e9%9b%86%e7%be%a4%e7%b3%bb%e7%bb%9f/)
+* [FastDFS数据迁移及常用命令](http://www.dev-share.top/2019/12/04/fastdfs%e6%95%b0%e6%8d%ae%e8%bf%81%e7%a7%bb%e5%8f%8a%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4/)
