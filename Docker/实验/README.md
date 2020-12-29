@@ -8,7 +8,10 @@
   * [在docker上安装Nginx](#在docker上安装Nginx)
   * [在docker上安装消息队列](#在docker上安装消息队列)
   * [在docker上安装监控](#在docker上安装监控)
-  * []()
+  * [在docker上安装DNS](#在docker上安装DNS)
+  * [在docker上安装SVN](#在docker上安装SVN)
+  * [在docker上安装部署ceph集群](#在docker上安装部署ceph集群)
+  * [在docker上安装部署filebeat](#在docker上安装部署filebeat)
 * [2. 在docker集成持续部署](#2-在docker集成持续部署)
   * [在docker上安装jenkins](#在docker上安装jenkins)
   * [在docker上部署spring boot 项目](#在docker上部署Java项目)
@@ -35,10 +38,25 @@
 
 ## 在docker上安装监控
    * [Docker容器可视化监控中心搭建](https://mp.weixin.qq.com/s?__biz=MzU4ODI1MjA3NQ==&mid=2247483763&idx=1&sn=6ceb9e73540b5016dadfb212636b3855&chksm=fdded7b7caa95ea1165b507397c39267d3bf7522c83cc8ed10eae4ee4a13db831eb58a3dc167&scene=21#wechat_redirect)
+   * [使用 docker-compose 安装 Prometheus+Alertmanager+Grafana](http://www.dev-share.top/2019/06/25/%e4%bd%bf%e7%94%a8-docker-compose-%e5%ae%89%e8%a3%85-prometheusalertmanagergrafana/)
 
 ## 在docker上安装消息队列
    * [docker部署rabbitmq集群的实现方法](https://www.jb51.net/article/144748.htm)
-   
+
+## 在docker上安装DNS
+* [docker-compose 搭建 DNS 私服](http://www.dev-share.top/2020/06/04/%e6%90%ad%e5%bb%ba-dns-%e7%a7%81%e6%9c%8d/)
+
+
+## 在docker上安装SVN
+* [Docker-Dompose 安装 SVN](http://www.dev-share.top/2020/08/28/docker-dompose-%e5%ae%89%e8%a3%85-svn/)
+
+## 在docker上安装部署ceph集群
+* [docker-compose 部署ceph集群](http://www.dev-share.top/2019/12/24/docker-compose-%e9%83%a8%e7%bd%b2ceph%e9%9b%86%e7%be%a4/)
+
+## 在docker上安装部署filebeat
+* [使用 docker-compose 安装 filebeat+redis](http://www.dev-share.top/2019/06/27/%e4%bd%bf%e7%94%a8-docker-compose-%e5%ae%89%e8%a3%85-filebeatredis/)
+
+
 
 # 2 在docker集成持续部署
 
@@ -54,3 +72,4 @@
 * [使用 docker 高效部署前端应用](https://github.com/shfshanyue/op-note/blob/master/deploy-fe-with-docker.md)
 * [在Docker环境构建、打包和运行Spring Boot应用](http://dockone.io/article/9530)
 * [基于docker+nginx+tomcat容器+mysql容器部署Java web项目实现负载均衡实战](https://blog.csdn.net/liqz666/article/details/82222511)
+* [docker-compose 构建项目](http://www.dev-share.top/2019/07/16/docker-compose-%e6%9e%84%e5%bb%ba%e9%a1%b9%e7%9b%ae/)
