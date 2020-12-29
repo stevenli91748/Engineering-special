@@ -203,25 +203,20 @@
 
 ## 参考实验
 
-[Docker容器化部署尝试——多容器通信(node+mongoDB+nginx)](https://www.jb51.net/article/153042.htm)|[Docker容器使用jenkins部署web项目(总结)](https://www.jb51.net/article/146319.htm)|[docker部署rabbitmq集群的实现方法](https://www.jb51.net/article/144748.htm)|
+[Docker容器化部署尝试——多容器通信(node+mongoDB+nginx)](https://www.jb51.net/article/153042.htm)|||
 ---|---|---|
 
-[docker的简单搭建(java/tomcat 环境)](https://www.cnblogs.com/lemon-flm/p/7039880.html)|[Docker 搭建 Tomcat + Mysql](https://www.cnblogs.com/primadonna/p/10411857.html)|[基于docker+nginx+tomcat容器+mysql容器部署Java web项目实现负载均衡实战](https://blog.csdn.net/liqz666/article/details/82222511)|
+[docker的简单搭建(java/tomcat 环境)](https://www.cnblogs.com/lemon-flm/p/7039880.html)|||
 ---|---|---|
 
-[使用Docker部署tomcat、mysql、nginx静态服务器](https://blog.csdn.net/a745233700/article/details/80452862)|[如何在docker里搭建自己的云数据库](https://blog.csdn.net/liqz666/article/details/103277559)|
+|[如何在docker里搭建自己的云数据库](https://blog.csdn.net/liqz666/article/details/103277559)|
 ---|---|
 
-[docker的各种配置](https://blog.csdn.net/qq_36688928/article/details/93164651)|[在Docker环境构建、打包和运行Spring Boot应用](http://dockone.io/article/9530)|[使用 docker 高效部署前端应用](https://github.com/shfshanyue/op-note/blob/master/deploy-fe-with-docker.md)|
+[docker的各种配置](https://blog.csdn.net/qq_36688928/article/details/93164651)|||
 ---|---|---|
 
-[Node 项目从构建到使用 Jenkins 与 Docker 实现自动化部署](http://dockone.io/article/9507)|[Docker部署Java项目持续集成？](http://dockone.io/question/283)|
----|---|
 
-[Spring Boot项目部署在Docker中](https://itweknow.cn/blog-site/posts/e2232a75.html)|
----|
 
----
 
 Go|[Swarm-管理docker集群](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Swarm/README.md)|[Compose-管理docker容器的应用部署](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Compose/README.md)|[Machine-安装docker](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Machine/README.md)|
 ---|---|---|---|
@@ -300,7 +295,7 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 [docker_共享数据DatapackedVolumeContainer](https://www.bilibili.com/video/av68863724)|[docker_machine集中安装与管理](https://www.bilibili.com/video/av68953512)|[Docker_容器内启动systemd程序](https://www.bilibili.com/video/av70483806)|
 ---|---|---|
 
-[容器的端口映射](https://www.bilibili.com/video/av17854410?p=12)|[Docker+Jenkins+Git集成持续部署](https://www.bilibili.com/video/av62369964/?spm_id_from=333.788.videocard.1)|
+[容器的端口映射](https://www.bilibili.com/video/av17854410?p=12)||
 ---|---|
 
 
