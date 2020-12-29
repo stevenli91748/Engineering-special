@@ -4,6 +4,10 @@
 [如何基于 K8s 构建下一代 DevOps 平台？](https://www.kubernetes.org.cn/8351.html)|
 ---|
 
+[GitLab CI/CD 预定义环境变量说明](http://www.dev-share.top/2019/06/14/gitlab-ci-cd-%e9%a2%84%e5%ae%9a%e4%b9%89%e7%8e%af%e5%a2%83%e5%8f%98%e9%87%8f%e8%af%b4%e6%98%8e/)|[Gitlab 备份](http://www.dev-share.top/2019/03/06/gitlab-%e5%a4%87%e4%bb%bd/)|[Centos7 安装 Gitlab Runner](http://www.dev-share.top/2019/02/16/centos7-%e5%ae%89%e8%a3%85-gitlab-runner/)|
+---|---|---|
+
+
 
 # [项目工程化面试](https://github.com/stevenli91748/Engineering-special/blob/master/Interview/README.md)
 
