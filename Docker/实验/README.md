@@ -46,7 +46,7 @@
 * [Docker容器使用jenkins部署web项目(总结)](https://www.jb51.net/article/146319.htm)
 * [Docker+Jenkins+Git集成持续部署](https://www.bilibili.com/video/av62369964/?spm_id_from=333.788.videocard.1)
 * [Node 项目从构建到使用 Jenkins 与 Docker 实现自动化部署](http://dockone.io/article/9507)
-
+* [Docker-Compose 安装 Jenkins](http://www.dev-share.top/2020/08/23/docker-compose-%e5%ae%89%e8%a3%85-jenkins/)
 
 ## 在docker上部署Java项目
 * [Docker部署Java项目持续集成？](http://dockone.io/question/283)
