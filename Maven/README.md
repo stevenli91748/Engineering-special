@@ -14,8 +14,8 @@
 * 7. 继承
 * 8. 聚合
 
-[精尽 Maven 学习指南](http://svip.iocoder.cn/Maven/tutorials/)|
----|
+[精尽 Maven 学习指南](http://svip.iocoder.cn/Maven/tutorials/)|[Maven setting.xml文件格式](https://maven.apache.org/ref/3.6.3/maven-settings/settings.html)|
+---|---|
 
 
 [Maven配置](https://github.com/stevenli91748/Engineering-special/blob/master/Maven/Maven配置.md)|[创建Maven聚合工程](https://www.bilibili.com/video/av66688878?from=search&seid=1510232123322665339)|[Maven项目并整合Tomcat发布Maven项目](https://www.bilibili.com/video/av66142485/?spm_id_from=333.788.videocard.2)|[Maven如何管理第三方的类库](https://www.bilibili.com/video/av66145696/?spm_id_from=333.788.videocard.2)|
