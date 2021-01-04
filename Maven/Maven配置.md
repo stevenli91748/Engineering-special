@@ -2,7 +2,7 @@
 
 * [1. Maven 安装](#1-Maven安装)
 * [2. Maven配置](#2-Maven配置)
-  * [2A. 设置Maven镜像地址](# 2A-设置Maven镜像地址)
+  * [2A. 设置Maven镜像地址](#2A-设置Maven镜像地址)
   * [2B. 设置Maven本地仓库路径](#2B-设置Maven本地仓库路径)
 
 # 1 Maven 安装
