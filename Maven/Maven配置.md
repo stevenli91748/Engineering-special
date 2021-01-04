@@ -167,16 +167,16 @@ maven安装好了，我们需要来设置一下代理服务器
    
    配置C:\apache-maven-3.5.0\conf\中setting.xml文件
     
-  <profile>
-       <id>jdk-1.8</id>
-       <activation>
-         <activeByDefault>true</activeByDefault>
-         <jdk>1.8</jdk>
-       </activation>
-       <properties>
-	   <maven.compiler.source>1.8</maven.compiler.source>
-	   <maven.compiler.target>1.8</maven.compiler.target>
-	   <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-       </properties>
-  </profile>
+	  <profile>
+	       <id>jdk-1.8</id>
+	       <activation>
+		 <activeByDefault>true</activeByDefault>
+		 <jdk>1.8</jdk>
+	       </activation>
+	       <properties>
+		   <maven.compiler.source>1.8</maven.compiler.source>
+		   <maven.compiler.target>1.8</maven.compiler.target>
+		   <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+	       </properties>
+	  </profile>
    
