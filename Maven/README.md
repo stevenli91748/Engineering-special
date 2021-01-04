@@ -64,7 +64,7 @@ test  install  deploy
 * [maven高级应用-实战【IDEA版】](https://www.bilibili.com/video/av56964550/?spm_id_from=333.788.videocard.5)
 * [java高并发分布式SSM项目实战视频教](https://space.bilibili.com/7028047/channel/detail?cid=40223)
 # 有用的参考
-
+* [IntellJ IDEA配置Maven以及修改默认Repository](https://zhuanlan.zhihu.com/p/28133184)
 * [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
 * [Maven官方中心库](https://mvnrepository.com)
 
