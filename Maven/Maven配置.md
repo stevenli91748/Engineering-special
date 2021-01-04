@@ -109,7 +109,7 @@
    
    配置C:\apache-maven-3.5.0\conf\中setting.xml文件
    
-      <localRepository> f:\MavenlocalRepository </localRepository>
+      <localRepository>f:\MavenlocalRepository</localRepository>
   
   我把maven的本地仓库路径设为 f:\MavenlocalRepository，本地仓库是装载了在 pom 文件中添加的依赖包的物理文件所在位置，如果在 pom 文件中添加了依赖，可是并没有什么反应，IDEA 反而会把它标红。
   这是因为对应的包在本地仓内找不到， 需要采取以下步骤：
@@ -132,7 +132,7 @@
 <a href="https://ibb.co/ZgNTGF4"><img src="https://i.ibb.co/M19NZtw/maven5.jpg" alt="maven5" border="0"></a>
 
   4. 在IDEA 中 打开编译器右边的maven管理工具(重新导包），点击“reimport all maven projects”按钮。所有在POM文件中报红的依赖项目(表示该依赖包没有下载到本地仓库)会从setting.xml文件中
-     的mirror指定的境像地址下载需要的包
+     的mirror指定的境像地址下载需要的包,保红的依赖项目会显示正常颜色
      
      setting.xml文件：
      
@@ -147,19 +147,27 @@
   
   <a href="https://ibb.co/qg952HY"><img src="https://i.ibb.co/Ks7w8tx/maven4.png" alt="maven4" border="0"></a>
 
-
-maven安装好了，我们需要来设置一下代理服务器
-
- 在你刚刚解压的maven目录下找conf文件夹，下面有个settings文件，打开它，找到<mirror>标签，添加下列代码
+  在pom文件中依赖项目的包在本地倉库的存储路径，
   
-        <mirror>
-          <id>nexus-aliyun</id>
-          <mirrorOf>central</mirrorOf>
-          <name>Nexus aliyun</name>
-           <url>http://maven.aliyun.com/nexus/content/groups/public</url>   //国内的下载中心
-           <url>http://repo.maven.apache.org/maven2
-	</mirror>
+  例子：
 
+	// pom 文件中的dependency
+	<dependency>
+	  <groupId>org.junit.jupiter</groupId>
+	  <artifactId>junit-jupiter-api</artifactId>
+	  <version>5.6.0</version>
+	  <scope>test</scope>
+	</dependency>
+
+       //路径一
+	// 实际地址,如果没有设定自定义的本地倉库路径，采用默认路径
+        c:\Users\MyName(用户登录名)\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar
+
+       //路径二
+       //在本例中自定义了本地倉库路径为 f:\MavenlocalRepository
+       f:\MavenlocalRepository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar
+	
+	
 
 ## 2C 设置JDK的版本号
 
