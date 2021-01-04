@@ -49,7 +49,7 @@
 
 <a href="https://ibb.co/ZgNTGF4"><img src="https://i.ibb.co/M19NZtw/maven5.jpg" alt="maven5" border="0"></a>
 
-  4. 在IDEA 中 打开编译器右边的maven管理工具(重新导包），点击reimport all maven projects。所有在POM文件中**报红的依赖项目(表示该依赖包没有下载到本地仓库)**会从setting.xml文件中的mirror指定
+  4. 在IDEA 中 打开编译器右边的maven管理工具(重新导包），点击reimport all maven projects。所有在POM文件中报红的依赖项目(表示该依赖包没有下载到本地仓库)会从setting.xml文件中的mirror指定
      的境像地址下载需要的包
      
      setting.xml文件：
