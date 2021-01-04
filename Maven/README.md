@@ -18,7 +18,7 @@
 ---|---|---|
 
 
-[Maven配置](https://github.com/stevenli91748/Engineering-special/blob/master/Maven/Maven配置.md)|[创建Maven聚合工程](https://www.bilibili.com/video/av66688878?from=search&seid=1510232123322665339)|[Maven项目并整合Tomcat发布Maven项目](https://www.bilibili.com/video/av66142485/?spm_id_from=333.788.videocard.2)|[Maven如何管理第三方的类库](https://www.bilibili.com/video/av66145696/?spm_id_from=333.788.videocard.2)|
+[Maven环境配置](https://github.com/stevenli91748/Engineering-special/blob/master/Maven/Maven配置.md)|[创建Maven聚合工程](https://www.bilibili.com/video/av66688878?from=search&seid=1510232123322665339)|[Maven项目并整合Tomcat发布Maven项目](https://www.bilibili.com/video/av66142485/?spm_id_from=333.788.videocard.2)|[Maven如何管理第三方的类库](https://www.bilibili.com/video/av66145696/?spm_id_from=333.788.videocard.2)|
 ---|---|---|---|
 
 [Maven+Tomcat热部署](https://github.com/stevenli91748/Engineering-special/blob/master/Maven/Maven%2BTomcat热部署.md)|[Maven Tomcat8插件在聚合工程中的布署](https://www.bilibili.com/video/av66798233)|[前后端分离+maven+okhttp+多模块模拟微服务](https://www.bilibili.com/video/av74433362/?spm_id_from=333.788.videocard.6)|
