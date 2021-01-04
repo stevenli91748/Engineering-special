@@ -1,5 +1,9 @@
+# 目录
 
-# MAVEN 安装
+* [1. Maven 安装](#1-Maven安装)
+* [2. Maven配置](#2-Maven配置)
+
+# 1 Maven 安装
 
 
     1.下载
@@ -20,7 +24,82 @@
 
 	其中会显示Java 配置环境以及Maven配置环境
 
-# 设置Maven本地仓库路径
+#  2 Maven配置
+
+## 2A 设置Maven镜像地址
+
+      在你刚刚解压的maven目录下找conf文件夹，下面有个settings文件，打开它，找到<mirror>标签，添加下列代码
+      
+      配置C:\apache-maven-3.5.0\conf\中setting.xml文件
+      
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <pluginGroups />
+    <proxies />
+    <servers />
+
+    <localRepository>f:\MavenlocalRepository</localRepository>
+
+    <mirrors>
+        <mirror>
+            <id>alimaven</id>
+            <mirrorOf>central</mirrorOf>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
+        </mirror>
+        <mirror>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+        <mirror>
+            <id>central</id>
+            <name>Maven Repository Switchboard</name>
+            <url>http://repo1.maven.org/maven2/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+        <mirror>
+            <id>repo2</id>
+            <mirrorOf>central</mirrorOf>
+            <name>Human Readable Name for this Mirror.</name>
+            <url>http://repo2.maven.org/maven2/</url>
+        </mirror>
+        <mirror>
+            <id>ibiblio</id>
+            <mirrorOf>central</mirrorOf>
+            <name>Human Readable Name for this Mirror.</name>
+            <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
+        </mirror>
+        <mirror>
+            <id>jboss-public-repository-group</id>
+            <mirrorOf>central</mirrorOf>
+            <name>JBoss Public Repository Group</name>
+            <url>http://repository.jboss.org/nexus/content/groups/public</url>
+        </mirror>
+        <mirror>
+            <id>google-maven-central</id>
+            <name>Google Maven Central</name>
+            <url>https://maven-central.storage.googleapis.com
+            </url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+        <!-- 中央仓库在中国的镜像 -->
+        <mirror>
+            <id>maven.net.cn</id>
+            <name>oneof the central mirrors in china</name>
+            <url>http://maven.net.cn/content/groups/public/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+
+</settings>      
+      
+
+## 2B 设置Maven本地仓库路径
 
   本地仓库的地址默认为${user.home}/.m2/repository，这个 user.home 在 Windows 下一般就是 C 盘 Users 文件夹中以自己登录的那个用户名命名的文件夹。
   但是可在在你刚刚解压的maven目录( C:\apache-maven-3.5.0 )下找conf目录，下面有个settings.xml文件，打开它
@@ -41,16 +120,14 @@
 （检查maven仓库配置是否正确）检查Maven directory，local repository的配置和settings.xml中配置的仓库地址是否一致，如果不是选用IDEA默认的Maven版本,而是选用自己安装的Maven版本的话就必需要
  勾选“Override”
     
- 
-    
   
   3. “File”—>“Settings”->"Build, execuition,deployment"->“Maven”->"Importing"之后在 Maven 选项卡中找到“Importing”一项，勾选“Import Maven projects automatically” 和 选择 
       对的版本 在“ JDK FOR Importer:”
 
 <a href="https://ibb.co/ZgNTGF4"><img src="https://i.ibb.co/M19NZtw/maven5.jpg" alt="maven5" border="0"></a>
 
-  4. 在IDEA 中 打开编译器右边的maven管理工具(重新导包），点击reimport all maven projects。所有在POM文件中报红的依赖项目(表示该依赖包没有下载到本地仓库)会从setting.xml文件中的mirror指定
-     的境像地址下载需要的包
+  4. 在IDEA 中 打开编译器右边的maven管理工具(重新导包），点击“reimport all maven projects”按钮。所有在POM文件中报红的依赖项目(表示该依赖包没有下载到本地仓库)会从setting.xml文件中
+     的mirror指定的境像地址下载需要的包
      
      setting.xml文件：
      
@@ -59,7 +136,7 @@
 		      <id>usacentral</id>
 		      <mirrorOf>central</mirrorOf> 
 		      <name>Central Repository</name> 
-		      <url>https://repo1.maven.org/maven2</url>
+		      <url>https://repo1.maven.org/maven2</url>     //境像地址
 		    </mirror>  
 		  </mirrors>
   
@@ -78,13 +155,6 @@ maven安装好了，我们需要来设置一下代理服务器
            <url>http://repo.maven.apache.org/maven2
 	</mirror>
 
-7. maven默认的本地的仓储位置是在c盘你的用户名下的“.m2”文件夹中，如果不想让它把从网上下载下来的jar包存在c盘，可以修改其默认仓储位置，依旧是找到刚才的settings文件，找到这行修改为：
-
-       <localRepository>f:\MavenlocalRepository</localRepository>
-  
-  这样我们就把默认的jar存储位置改在了f盘的repository目录下
-
-很容易你就发现了springframework，里面存放了spring框架所使用的基本上所有的jar包，
 
 8. 设置JDK 的版本号
 
