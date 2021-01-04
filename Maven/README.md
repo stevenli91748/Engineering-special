@@ -64,6 +64,7 @@ test  install  deploy
 * [maven高级应用-实战【IDEA版】](https://www.bilibili.com/video/av56964550/?spm_id_from=333.788.videocard.5)
 * [java高并发分布式SSM项目实战视频教](https://space.bilibili.com/7028047/channel/detail?cid=40223)
 # 有用的参考
+
 * [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
 * [Maven官方中心库](https://mvnrepository.com)
 
@@ -81,6 +82,12 @@ test  install  deploy
 * [淘淘商城第一天：使用IDEA搭建基于maven的SSM聚合项目](https://blog.csdn.net/qq_36349200/article/details/79682758)
 * [淘淘商城IDEA开发第二天--框架整合,后台系统搭建](https://blog.csdn.net/baidu_34324281/article/details/83020174?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
 * [发布项目至maven中央仓库汇总（流程+问题）](https://zhuanlan.zhihu.com/p/41650855)
+
+
+# troubleshooting 
+
+* [IntelliJ IDEA中Maven插件无法更新索引之解决办法](http://codepub.cn/2015/12/09/IntelliJ-IDEA-in-Maven-plugin-could-not-update-the-index-of-the-solution/)
+
 
 # 已安装的Maven
 安装目录
