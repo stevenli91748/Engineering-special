@@ -4,8 +4,8 @@
 * [IDEA中maven项目dependencies报错飘红问题解决](https://blog.csdn.net/qq_34748010/article/details/107878145?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.not_use_machine_learn_pai&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.not_use_machine_learn_pai)
 * [IDEA+MAVEN：踩坑指南](https://zhuanlan.zhihu.com/p/104311658)
 * [IntellJ IDEA配置Maven以及修改默认Repository](https://zhuanlan.zhihu.com/p/28133184)
-* [Maven 远程中央仓库镜像一](http://lychie.github.io/pages/articles/maven/15041621.html)
-* [Maven 远程中央仓库镜像二](https://maven.aliyun.com/mvn/guide)
+* [Maven 远程中央仓库地址镜像一](http://lychie.github.io/pages/articles/maven/15041621.html)
+* [Maven 远程中央仓库地址镜像二](https://maven.aliyun.com/mvn/guide)
 
 # 目录
 * [1. Maven 安装](#1-Maven安装)
