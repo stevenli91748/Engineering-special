@@ -10,11 +10,11 @@
 
 	解压完毕后就是配置环境变量了，在桌面我的电脑上右键点击“属性”，“高级系统设置”，“环境变量”，新建系统变量名为“MAVEN_HOME”，地址为你刚刚解压的maven目录。
 
-	a. MAVEN_HOME : C:\apache-maven-3.5.0
+			a. MAVEN_HOME : C:\apache-maven-3.5.0
 
-	b.PATH : %MAVEN_HOME%\bin;
+			b.PATH : %MAVEN_HOME%\bin;
 
-	c. MAVEN_OPTS : -Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8
+			c. MAVEN_OPTS : -Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8 （如果没有在本机这设置该变量，可在IDEA中设置）
 
 	4.在CMD中输入mvn -v,如出现下列信息，表示配置成功。
 
