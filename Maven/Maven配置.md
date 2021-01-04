@@ -4,6 +4,7 @@
 * [2. Maven配置](#2-Maven配置)
   * [2A. 设置Maven镜像地址](#2A-设置Maven镜像地址)
   * [2B. 设置Maven本地仓库路径](#2B-设置Maven本地仓库路径)
+  * [2C. 设置JDK 的版本号](#2C-设置JDK的版本号)
 
 # 1 Maven 安装
 
@@ -105,7 +106,9 @@
 
   本地仓库的地址默认为${user.home}/.m2/repository，这个 user.home 在 Windows 下一般就是 C 盘 Users 文件夹中以自己登录的那个用户名命名的文件夹。
   但是可在在你刚刚解压的maven目录( C:\apache-maven-3.5.0 )下找conf目录，下面有个settings.xml文件，打开它
-  
+   
+   配置C:\apache-maven-3.5.0\conf\中setting.xml文件
+   
       <localRepository> f:\MavenlocalRepository </localRepository>
   
   我把maven的本地仓库路径设为 f:\MavenlocalRepository，本地仓库是装载了在 pom 文件中添加的依赖包的物理文件所在位置，如果在 pom 文件中添加了依赖，可是并没有什么反应，IDEA 反而会把它标红。
@@ -158,10 +161,12 @@ maven安装好了，我们需要来设置一下代理服务器
 	</mirror>
 
 
-8. 设置JDK 的版本号
+## 2C 设置JDK的版本号
 
    在你的maven目录下找conf文件夹，下面有个settings文件，打开它，找到<Profiles>标签，添加下列代码
    
+   配置C:\apache-maven-3.5.0\conf\中setting.xml文件
+    
   <profile>
        <id>jdk-1.8</id>
        <activation>
