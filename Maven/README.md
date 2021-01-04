@@ -88,7 +88,7 @@ test  install  deploy
 # troubleshooting 
 
 * [IntelliJ IDEA中Maven插件无法更新索引之解决办法](http://codepub.cn/2015/12/09/IntelliJ-IDEA-in-Maven-plugin-could-not-update-the-index-of-the-solution/)
-
+* [IDEA中maven项目dependencies报错飘红问题解决](https://blog.csdn.net/qq_34748010/article/details/107878145?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.not_use_machine_learn_pai&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.not_use_machine_learn_pai)
 
 # 已安装的Maven
 安装目录
