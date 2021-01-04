@@ -36,17 +36,31 @@
   
   2. 我们需要调整 IDEA 的设置，依次点击“File”—>“Settings”->"Build, execuition,deployment"，
   
-<a href="https://ibb.co/SQqrcd8"><img src="https://i.ibb.co/n3hCBnv/maven2.png" alt="maven2" border="0"></a>     
 <a href="https://ibb.co/N6WWLgC"><img src="https://i.ibb.co/XZFFzfL/maven3.png" alt="maven3" border="0"></a>
-   （检查maven仓库配置是否正确）检查Maven directory，local repository的配置和settings.xml中配置的仓库地址是否一致，如果不是选用IDEA默认的Maven版本,而是选用自己安装的Maven版本的话就必需要
-    勾选“Override”
+
+（检查maven仓库配置是否正确）检查Maven directory，local repository的配置和settings.xml中配置的仓库地址是否一致，如果不是选用IDEA默认的Maven版本,而是选用自己安装的Maven版本的话就必需要
+ 勾选“Override”
     
-    
+ 
     
   
   3. “File”—>“Settings”->"Build, execuition,deployment"->“Maven”->"Importing"之后在 Maven 选项卡中找到“Importing”一项，勾选“Import Maven projects automatically” 和 选择 对的版本 在“ JDK FOR Importer:”
   
+
+  4. 在IDEA 中 打开编译器右边的maven管理工具(重新导包），点击reimport all maven projects。所有在POM文件中报红的依赖项目(表示该依赖包没有下载到本地仓库)会从setting.xml文件中的mirror指定
+     的境像地址下载需要的包
+     
+	  <mirrors>
+	    <mirror>
+	      <id>usacentral</id>
+	      <mirrorOf>central</mirrorOf> 
+	      <name>Central Repository</name> 
+	      <url>https://repo1.maven.org/maven2</url>
+	    </mirror>  
+	  </mirrors>
   
+  <a href="https://ibb.co/qg952HY"><img src="https://i.ibb.co/Ks7w8tx/maven4.png" alt="maven4" border="0"></a>
+
 
 maven安装好了，我们需要来设置一下代理服务器
 
