@@ -68,8 +68,8 @@ test  install  deploy
 * [IntellJ IDEA配置Maven以及修改默认Repository](https://zhuanlan.zhihu.com/p/28133184)
 * [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
 * [Maven官方中心库](https://mvnrepository.com)
-
-* [Maven 远程中央仓库镜像](http://lychie.github.io/pages/articles/maven/15041621.html)
+* [Maven 远程中央仓库镜像一](http://lychie.github.io/pages/articles/maven/15041621.html)
+* [Maven 远程中央仓库镜像二](https://maven.aliyun.com/mvn/guide)
 * [Maven搭建Spring+SpringMVC+Mybatis+Shiro项目详解](https://blog.csdn.net/userrefister/article/details/72760424)
 * [MAVEN创建多模块项目（水平与树形结构）](https://blog.csdn.net/zhshulin/article/details/53001750)
 * [idea中配置maven](https://blog.csdn.net/nba_linshuhao/article/details/82715485)
