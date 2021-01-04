@@ -1,14 +1,52 @@
-1. 下载
 
-2. 解压完毕后就是配置环境变量了，在桌面我的电脑上右键点击“属性”，“高级系统设置”，“环境变量”，新建系统变量名为“M2_HOME”，地址为你刚刚解压的maven目录。
+# MAVEN 安装
 
-3. 然后找到“path”添加“%M2_HOME%\bin”
+        1.下载
 
-4. 以上步骤做完后，启动命令行窗口来验证一下安装是否正确。输入“mvn -version”
+	2.解压1所下载文件，本人解压到：c:\apache-maven-3.5.0
 
-5. maven安装好了，我们需要来设置一下代理服务器
+	3.配置Maven环境变量
 
-6. 在你的maven目录下找conf文件夹，下面有个settings文件，打开它，找到<mirror>标签，添加下列代码
+	解压完毕后就是配置环境变量了，在桌面我的电脑上右键点击“属性”，“高级系统设置”，“环境变量”，新建系统变量名为“MAVEN_HOME”，地址为你刚刚解压的maven目录。
+
+	a. MAVEN_HOME : C:\apache-maven-3.5.0
+
+	b.PATH : %MAVEN_HOME%\bin;
+
+	c. MAVEN_OPTS : -Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8
+
+	4.在CMD中输入mvn -v,如出现下列信息，表示配置成功。
+
+	其中会显示Java 配置环境以及Maven配置环境
+
+# 设置Maven本地仓库路径
+
+  本地仓库的地址默认为${user.home}/.m2/repository，这个 user.home 在 Windows 下一般就是 C 盘 Users 文件夹中以自己登录的那个用户名命名的文件夹。
+  但是可在在你刚刚解压的maven目录( C:\apache-maven-3.5.0 )下找conf目录，下面有个settings.xml文件，打开它
+  
+      <localRepository> f:\MavenlocalRepository </localRepository>
+  
+  我把maven的本地仓库路径设为 f:\MavenlocalRepository，本地仓库是装载了在 pom 文件中添加的依赖包的物理文件所在位置，如果在 pom 文件中添加了依赖，可是并没有什么反应，IDEA 反而会把它标红。
+  这是因为对应的包在本地仓内找不到， 需要采取以下步骤：
+  
+  1. 先到 project setting 中设置， 我选已经安装在机上的JDK版本1.8.0
+  
+  <a href="https://ibb.co/Z2fj6c6"><img src="https://i.ibb.co/3RT3ySy/maven1.png" alt="maven1" border="0"></a>
+  
+  2. 我们需要调整 IDEA 的设置，依次点击“File”—>“Settings”->"Build, execuition,deployment"，
+  
+<a href="https://ibb.co/SQqrcd8"><img src="https://i.ibb.co/n3hCBnv/maven2.png" alt="maven2" border="0"></a>     
+
+   （检查maven仓库配置是否正确）检查Maven directory，local repository的配置和settings.xml中配置的仓库地址是否一致，如果不是选用IDEA默认的Maven版本,而是选用自己安装的Maven版本的话就必需要
+    勾选“Override”
+  
+  3. “File”—>“Settings”->"Build, execuition,deployment"->“Maven”->"Importing"之后在 Maven 选项卡中找到“Importing”一项，勾选“Import Maven projects automatically” 和 选择 对的版本 在“ JDK FOR Importer:”
+  
+  
+
+maven安装好了，我们需要来设置一下代理服务器
+
+ 在你刚刚解压的maven目录下找conf文件夹，下面有个settings文件，打开它，找到<mirror>标签，添加下列代码
   
         <mirror>
           <id>nexus-aliyun</id>
