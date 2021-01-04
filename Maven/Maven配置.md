@@ -2,6 +2,8 @@
 
 * [1. Maven 安装](#1-Maven安装)
 * [2. Maven配置](#2-Maven配置)
+  * [2A. 设置Maven镜像地址](# 2A-设置Maven镜像地址)
+  * [2B. 设置Maven本地仓库路径](#2B-设置Maven本地仓库路径)
 
 # 1 Maven 安装
 
@@ -32,71 +34,71 @@
       
       配置C:\apache-maven-3.5.0\conf\中setting.xml文件
       
-<?xml version="1.0" encoding="UTF-8"?>
-<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+	<?xml version="1.0" encoding="UTF-8"?>
+	<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" 
+	    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
-    <pluginGroups />
-    <proxies />
-    <servers />
+	    <pluginGroups />
+	    <proxies />
+	    <servers />
 
-    <localRepository>f:\MavenlocalRepository</localRepository>
+	    <localRepository>f:\MavenlocalRepository</localRepository>
 
-    <mirrors>
-        <mirror>
-            <id>alimaven</id>
-            <mirrorOf>central</mirrorOf>
-            <name>aliyun maven</name>
-            <url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
-        </mirror>
-        <mirror>
-            <id>alimaven</id>
-            <name>aliyun maven</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-            <mirrorOf>central</mirrorOf>
-        </mirror>
-        <mirror>
-            <id>central</id>
-            <name>Maven Repository Switchboard</name>
-            <url>http://repo1.maven.org/maven2/</url>
-            <mirrorOf>central</mirrorOf>
-        </mirror>
-        <mirror>
-            <id>repo2</id>
-            <mirrorOf>central</mirrorOf>
-            <name>Human Readable Name for this Mirror.</name>
-            <url>http://repo2.maven.org/maven2/</url>
-        </mirror>
-        <mirror>
-            <id>ibiblio</id>
-            <mirrorOf>central</mirrorOf>
-            <name>Human Readable Name for this Mirror.</name>
-            <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
-        </mirror>
-        <mirror>
-            <id>jboss-public-repository-group</id>
-            <mirrorOf>central</mirrorOf>
-            <name>JBoss Public Repository Group</name>
-            <url>http://repository.jboss.org/nexus/content/groups/public</url>
-        </mirror>
-        <mirror>
-            <id>google-maven-central</id>
-            <name>Google Maven Central</name>
-            <url>https://maven-central.storage.googleapis.com
-            </url>
-            <mirrorOf>central</mirrorOf>
-        </mirror>
-        <!-- 中央仓库在中国的镜像 -->
-        <mirror>
-            <id>maven.net.cn</id>
-            <name>oneof the central mirrors in china</name>
-            <url>http://maven.net.cn/content/groups/public/</url>
-            <mirrorOf>central</mirrorOf>
-        </mirror>
-    </mirrors>
+	    <mirrors>
+		<mirror>
+		    <id>alimaven</id>
+		    <mirrorOf>central</mirrorOf>
+		    <name>aliyun maven</name>
+		    <url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
+		</mirror>
+		<mirror>
+		    <id>alimaven</id>
+		    <name>aliyun maven</name>
+		    <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		    <mirrorOf>central</mirrorOf>
+		</mirror>
+		<mirror>
+		    <id>central</id>
+		    <name>Maven Repository Switchboard</name>
+		    <url>http://repo1.maven.org/maven2/</url>
+		    <mirrorOf>central</mirrorOf>
+		</mirror>
+		<mirror>
+		    <id>repo2</id>
+		    <mirrorOf>central</mirrorOf>
+		    <name>Human Readable Name for this Mirror.</name>
+		    <url>http://repo2.maven.org/maven2/</url>
+		</mirror>
+		<mirror>
+		    <id>ibiblio</id>
+		    <mirrorOf>central</mirrorOf>
+		    <name>Human Readable Name for this Mirror.</name>
+		    <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
+		</mirror>
+		<mirror>
+		    <id>jboss-public-repository-group</id>
+		    <mirrorOf>central</mirrorOf>
+		    <name>JBoss Public Repository Group</name>
+		    <url>http://repository.jboss.org/nexus/content/groups/public</url>
+		</mirror>
+		<mirror>
+		    <id>google-maven-central</id>
+		    <name>Google Maven Central</name>
+		    <url>https://maven-central.storage.googleapis.com
+		    </url>
+		    <mirrorOf>central</mirrorOf>
+		</mirror>
+		<!-- 中央仓库在中国的镜像 -->
+		<mirror>
+		    <id>maven.net.cn</id>
+		    <name>oneof the central mirrors in china</name>
+		    <url>http://maven.net.cn/content/groups/public/</url>
+		    <mirrorOf>central</mirrorOf>
+		</mirror>
+	    </mirrors>
 
-</settings>      
+	</settings>      
       
 
 ## 2B 设置Maven本地仓库路径
