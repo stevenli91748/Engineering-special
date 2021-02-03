@@ -4,7 +4,7 @@
 * [1. 安装Docker Compose](#1-安装Docker-Compose)
 * [2. 卸载Docker Compose](#2-卸载Docker-Compose)
 * [3. Docker Compose 命令](#3-Docker-Compose-命令)
-
+* [4. docker compose 案例](#4-docker-compose-案例)
 # 1 安装Docker Compose
 
 首先安装Docker 在extend 虚拟机上，安装Docker见上一讲
@@ -136,3 +136,9 @@ docker-compose 常用操作
 (7)进入到某个service
 
         docker-compose exec redis sh
+
+
+# 4 docker compose 案例
+
+* [官网案例：通过redis记录点击数 ](https://docs.docker.com/compose/gettingstarted/)
+* [docker compose 案例](https://www.kancloud.cn/pm1028/kubenetes/1767448)
