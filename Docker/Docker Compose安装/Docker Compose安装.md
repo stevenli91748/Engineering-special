@@ -1,4 +1,6 @@
 
+# 安装Docker Compose
+
 首先安装Docker 在extend 虚拟机上，安装Docker见上一讲
 
 [root]#>  curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -23,5 +25,16 @@ Docker-compose  version 1.25.0 , builded 458962
 
 [root]#> pip install docker-compose==1.5.2
 至此，docker-compose 指定版本成功！
+
+# 卸载Docker Compose
+
+通过curl方式安装以下方式卸载
+    
+    sudo rm /usr/local/bin/docker-compose
+
+pip方式安装以下方式卸载
+
+    pip uninstall docker-compose
+
 
 
