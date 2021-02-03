@@ -3,7 +3,7 @@
 
 * [1. 安装Docker Compose](#1-安装Docker-Compose)
 * [2. 卸载Docker Compose](#2-卸载Docker-Compose)
-* []()
+* [3. Docker Compose 命令](#3-Docker-Compose-命令)
 
 # 1 安装Docker Compose
 
@@ -43,7 +43,7 @@ pip方式安装以下方式卸载
     pip uninstall docker-compose
 
 
-# Docker Compose 命令
+# 3 Docker Compose 命令
 
 docker-compose 常用操作
 
