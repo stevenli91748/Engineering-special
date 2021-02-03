@@ -22,8 +22,29 @@
             EnvironmentFile=-/etc/default/docker   (-表示忽略错误)
             然后在
             ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock 的后面加上 $DOCKER_OPTS
+            
+            or 
+            
+            centos7:
+            
+                ExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:2375 -H unix://var/run/docker.sock
+                
+            centos7以下:
+                
+                ExecStart=/usr/bin/dockerd -H fd:// -H tcp://0.0.0.0:2375
+            
             [root]# systemctl daemon-reload
             [root]# systemctl restart docker
+            
+       2.3  验证
+       
+            curl http://localhost:2375/version     
+            
+            访问出现以下内容则表示远程访问配置成功
+
+                {"Platform":{"Name":"Docker Engine - Community"},"Components":[{"Name":"Engine","Version":"18.09.0","Details":{.....
+                
+                
 
  3.  修改服务端docker守护进程启动选项   
        
