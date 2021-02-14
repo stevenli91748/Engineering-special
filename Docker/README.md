@@ -349,3 +349,4 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 * [docker、kubernetes安装部署fastdfs文件集群系统](http://www.dev-share.top/2019/12/04/docker%e3%80%81kubernetes%e5%ae%89%e8%a3%85%e9%83%a8%e7%bd%b2fastdfs%e6%96%87%e4%bb%b6%e9%9b%86%e7%be%a4%e7%b3%bb%e7%bb%9f/)
 * [FastDFS数据迁移及常用命令](http://www.dev-share.top/2019/12/04/fastdfs%e6%95%b0%e6%8d%ae%e8%bf%81%e7%a7%bb%e5%8f%8a%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4/)
 * [使用Spring Boot创建docker image](https://cloud.tencent.com/developer/article/1739237?from=article.detail.1751679)
+* [Docker容器可视化监控中心搭建](https://mp.weixin.qq.com/s?__biz=MzU4ODI1MjA3NQ==&mid=2247483763&idx=1&sn=6ceb9e73540b5016dadfb212636b3855&chksm=fdded7b7caa95ea1165b507397c39267d3bf7522c83cc8ed10eae4ee4a13db831eb58a3dc167&scene=21#wechat_redirect)
