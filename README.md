@@ -210,7 +210,10 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
 
 # 后端自动化部署方案
   * 比较流行的一种就是Gitlab+Jenkins实现方案---不过这种方案占用内存比较大，没有个8G内存，很难流畅运行，而且部署起来也不快
+    * [再见 Jenkins！几行脚本搞定自动化部署，这款神器有点厉害](https://www.jianshu.com/p/304d67c59110) 
+    * [Devops自动化部署方案CICD-Jenkins&gitlab实践](https://www.jianshu.com/p/323284cb3ac2)
   * Drone+Gogs---轻量级CI/DI工具，结合Gogs使用内存占用不到1G，几行脚本就能实现自动化部署
+    * [再见 Jenkins！几行脚本搞定自动化部署，这款神器有点厉害](https://www.jianshu.com/p/304d67c59110) 
 
 
 
