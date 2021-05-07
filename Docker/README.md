@@ -201,7 +201,7 @@
 * [手动部署springboot工程到Docker](https://www.jianshu.com/p/e635eb540c97)
 * [Docker+Jenkins持续集成搭建](https://www.jianshu.com/p/64a0b1be55b2)
 * [Docker安装Tomcat镜像并部署web项目](https://www.jianshu.com/p/ac7bceb6f457)
-* 
+* [基于Docker的Jenkins安装部署与流水线脚本](https://www.jianshu.com/p/ff2be84f2fa4)
 
 
 
