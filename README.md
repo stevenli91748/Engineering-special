@@ -1,6 +1,10 @@
 # Engineering-special
 项目工程化专题
 
+[从零搭建后台技术栈，让你提升一个层次](https://www.jianshu.com/p/41ebad81b5eb)|
+---|
+
+
 [如何基于 K8s 构建下一代 DevOps 平台？](https://www.kubernetes.org.cn/8351.html)|
 ---|
 
