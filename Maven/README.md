@@ -27,6 +27,8 @@
 [tomcat7插件将maven_web项目热部署到远程服务器](https://www.bilibili.com/video/av82792639?from=search&seid=13371764215596198302)|
 ---|
 
+[Maven：12个常用命令+POM文件全属性分解，让你一清二楚](https://www.toutiao.com/a6837042977567670796/?log_from=d48379b6bf6ab_1630181242652)|
+---|
 
 # 知识点
 
