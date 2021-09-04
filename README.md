@@ -42,6 +42,10 @@
       * 4.1.  静态代码检查（linting）
         * 4.1.1.  ESLint：静态代码检查工具
       * 4.2.  测试（testing）
+        * [2020 软件测试教程](https://www.kancloud.cn/apachecn/guru99-zh/1953496)
+          * [2020 年 15 种最佳测试数据生成工具](https://www.kancloud.cn/apachecn/guru99-zh/1953679) 
+            * [mysql数据库的免费测试数据生成器](https://www.coder.work/article/144956)
+          * [软件测试全套教程](https://www.bilibili.com/video/av69230181/?spm_id_from=333.788.videocard.0) 
         * 4.2.1.  单元测试（unit testing）
         * 4.2.2.  功能测试（feature testing）
         
