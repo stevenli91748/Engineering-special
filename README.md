@@ -285,7 +285,7 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
    * [超详细——接口测试总结与分享](https://blog.csdn.net/qq_41370110/article/details/82825224)
   
 # 有用的参考
- * [程序员一般喜欢浏览哪些网站呢？](https://www.zhihu.com/question/283272958/answer/598956527?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656)
+* [程序员一般喜欢浏览哪些网站呢？](https://www.zhihu.com/question/283272958/answer/598956527?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656)
 * [前端工程化](https://github.com/gzpengli/blog)
 * [真实软件项目开发流程--从需求到开发的每一步骤](http://www.youmeek.com/java-sofaware-engineer/)
 * [前端项目开发流程及技术选型](https://blog.csdn.net/hicoldcat/article/details/53995337)
