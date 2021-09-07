@@ -185,15 +185,14 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
 8. 单元测试
 9. GIT push 提交代码,触发CI(持续集成)流程，如果不能通过，打回到开发者
 10. 人工代码审核，如果不能通过，打回到开发者
-11. 集成测试(CI)
+11. 集成测试(CI)/发布(CD)
    * [再见 Jenkins！几行脚本搞定自动化部署，这款神器有点厉害](https://www.jianshu.com/p/304d67c59110) 
    * [Gitlab + Jenkins + k8s 实现企业 CI/CD 落地](https://www.jianshu.com/p/9c1eddec34bc)
+   * [再见 Jenkins！几行脚本搞定自动化部署，这款神器有点厉害](https://www.jianshu.com/p/304d67c59110) 
 12. 联调
 13. 构建
-14. 发布(CD)
-    * [再见 Jenkins！几行脚本搞定自动化部署，这款神器有点厉害](https://www.jianshu.com/p/304d67c59110) 
-15. 回滚
-16. 监控
+14. 回滚
+15. 监控
 
 
 # 后端项目规范
