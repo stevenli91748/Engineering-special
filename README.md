@@ -186,10 +186,13 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
 9. GIT push 提交代码,触发CI(持续集成)流程，如果不能通过，打回到开发者
 10. 人工代码审核，如果不能通过，打回到开发者
 11. [集成测试(CI)/发布(CD)](https://github.com/stevenli91748/Engineering-special/blob/master/CI/README.md)
-12. 联调
-13. 构建
-14. 回滚
-15. 监控
+    * Github Actions
+    * Travis CI
+    * Jenkis
+13. 联调
+14. 构建
+15. 回滚
+16. 监控
 
 
 # 后端项目规范
