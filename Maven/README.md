@@ -14,6 +14,10 @@
 * 7. 继承
 * 8. 聚合
 
+
+[Maven快速教程](http://c.biancheng.net/maven2/)|
+---|
+
 [精尽 Maven 学习指南](http://svip.iocoder.cn/Maven/tutorials/)|[Maven setting.xml文件格式](https://maven.apache.org/ref/3.6.3/maven-settings/settings.html)|[史上最全的maven的pom.xml文件详解](https://developer.aliyun.com/article/443193)|
 ---|---|---|
 
