@@ -341,6 +341,7 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
  * [Docker部署SpringBoot快速入门[千锋南京]【idea集成docker实现镜像](https://www.bilibili.com/video/av80606083?from=search&seid=6827222005976129424)
  * [使用 Docker 搭建第一个 Node 项目到服务器](http://dockone.io/article/9606)
 # 有用的文档
+  * [Kubernetes vs Docker：2021年容器有哪些变化？](https://posts.careerengine.us/p/614df9961153ea348fcebd8a?from=latestPostSidePanel)
   * [IDEA的Docker插件]
     * [IDEA中使用Docker插件](https://mrbird.cc/IDEA-Docker-Plugin.html)
     * [IDEA的Docker插件实战(Dockerfile篇)](https://blog.csdn.net/boling_cavalry/article/details/100051325)
