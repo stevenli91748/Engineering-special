@@ -359,6 +359,7 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
  * [Docker部署SpringBoot快速入门[千锋南京]【idea集成docker实现镜像](https://www.bilibili.com/video/av80606083?from=search&seid=6827222005976129424)
  * [使用 Docker 搭建第一个 Node 项目到服务器](http://dockone.io/article/9606)
 # 有用的文档
+* [Docker部署SpringBoot+Vue前后端分离项目](https://www.jianshu.com/p/85b4665530cf)
 * [docker搭建Kafka集群及监控、可视化部署实战](https://www.jianshu.com/p/7ccf0a316676)
 * [万字长文：Docker容器安全性分析](https://mp.weixin.qq.com/s/1qVUlUNR7qVyby_c4vfrFg)
 * [Kubernetes vs Docker：2021年容器有哪些变化？](https://posts.careerengine.us/p/614df9961153ea348fcebd8a?from=latestPostSidePanel)
