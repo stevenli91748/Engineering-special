@@ -12,9 +12,24 @@
   * [在docker上安装SVN](#在docker上安装SVN)
   * [在docker上安装部署ceph集群](#在docker上安装部署ceph集群)
   * [在docker上安装部署filebeat](#在docker上安装部署filebeat)
+  * [使用Docker方式发布微服务](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k5fd32dd02725fd0b37cd75e) 
+  * [使用Docker部署日志分析平台(ELK)](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714kc45328f0274c45147dee704)
+  * [基于Docker的高级部署工具](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714keb132680275eb160de1d35c)
+  * [Spring Cloud组件的Docker化](https://weread.qq.com/web/reader/71d32370716443e271df020k01332b9028a013d407161b5)
+    * [建造基础镜像](https://weread.qq.com/web/reader/71d32370716443e271df020k398323202893988c7f885f0)---基础镜像dockerfile的模板基本一致，这里都放到每个工程的根目录下面，跟pom.xml文件一个目录
+    * [Spring Cloud Config-Server的Docker化](https://weread.qq.com/web/reader/71d32370716443e271df020k01332b9028a013d407161b5)
+    * Spring Cloud Eureka-server的Docker化
+    * Spring Cloud Gateway的Docker化
+    * turbine的Docker化
+    * Spring Admin的Docker化
+    * 业务微服务的Docker化
+
 * [2. 在docker集成持续部署](#2-在docker集成持续部署)
   * [在docker上安装jenkins](#在docker上安装jenkins)
   * [在docker上部署spring boot 项目](#在docker上部署Java项目)
+
+
+---
 
 # 1 docker环境配置
 
