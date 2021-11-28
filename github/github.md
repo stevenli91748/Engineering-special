@@ -8,7 +8,7 @@
 
 
 
-
+* [搭建个人博客教程(基于github pages和jekyll)](https://wangpei.ink/2019/04/21/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B(%E5%9F%BA%E4%BA%8Egithub-pages%E5%92%8Cjekyll)/)
 * [GitHub 实现多人协同提交代码并且权限分组管理](https://www.cnblogs.com/zhaoyanjun/p/5882784.html#4164756)
 * [Android github 快速实现多人协作](https://www.cnblogs.com/zhaoyanjun/p/5829142.html)
 * [GitHub的多人协同开发配置](https://www.cnblogs.com/ChampionLam/p/4276001.html)
