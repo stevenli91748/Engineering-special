@@ -186,8 +186,8 @@
 
 ## 博客
 
-[精尽 Docker 学习指南](http://svip.iocoder.cn/Docker/tutorials/)|[周志明 如何部署 Docker CE 容器环境](https://icyfenix.cn/appendix/deployment-env-setup/setup-docker.html)|[部署 Docker CE 容器环境](https://icyfenix.cn/appendix/deployment-env-setup/setup-docker.html)|
----|---|---|
+[精尽 Docker 学习指南](http://svip.iocoder.cn/Docker/tutorials/)|[周志明 如何部署 Docker CE 容器环境](https://icyfenix.cn/appendix/deployment-env-setup/setup-docker.html)|
+---|---|
 
 [史上讲解最好的 Docker 教程，学Docker看这篇就够了！](https://mp.weixin.qq.com/s/qzKu95JVazQu1h0zu9GizA)|[看云 Docker —— 从入门到实践](https://www.kancloud.cn/docker_practice/docker_practice)|
 ---|---|
