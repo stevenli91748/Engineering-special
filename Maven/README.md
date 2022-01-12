@@ -21,7 +21,7 @@
 [精尽 Maven 学习指南](http://svip.iocoder.cn/Maven/tutorials/)|[Maven setting.xml文件格式](https://maven.apache.org/ref/3.6.3/maven-settings/settings.html)|[史上最全的maven的pom.xml文件详解](https://developer.aliyun.com/article/443193)|
 ---|---|---|
 
-[maven 中parent 与 dependencyManagement](https://blog.csdn.net/qq_18416057/article/details/78005809)|
+[maven 中parent 与 dependencyManagement](https://blog.csdn.net/peanutwzk/article/details/107779521?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link&utm_relevant_index=1)|
 ---|
 
 
