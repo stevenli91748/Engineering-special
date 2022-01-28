@@ -15,6 +15,7 @@
   * [Docker Swarm 搭建 solr 集群](#Docker-Swarm搭建solr集群)
   * [Docker Swarm 搭建 zookeeper 集群](#Docker-Swarm搭建zookeeper集群)
   * [在docker上安装部署ceph集群](#在docker上安装部署ceph集群)
+  * [Docker Swarm 搭建 ELK 日志系统](#Docker-Swarm搭建ELK日志系统)
   * [在docker上安装部署filebeat](#在docker上安装部署filebeat)
   * [使用Docker方式发布微服务](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k5fd32dd02725fd0b37cd75e) 
   * [使用Docker部署日志分析平台(ELK)](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714kc45328f0274c45147dee704)
@@ -43,7 +44,10 @@
 
 ##  在Docker 运行 Oracle 数据库
    * [使用 Docker 运行 Oracle 数据库](https://rovo98.github.io/posts/c5182a98/)
+
+## Docker-Swarm搭建ELK日志系统
  
+   * [Docker Swarm 搭建 ELK 日志系统](https://www.jianshu.com/p/da81ce484eb9)
  
 ## Docker Swarm搭建solr集群
    * [Docker Swarm 搭建 solr 集群](https://www.jianshu.com/p/f3fbbea3ff66)
