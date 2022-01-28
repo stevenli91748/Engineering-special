@@ -2,7 +2,8 @@
 
 1. [root]# systemctl start docker
 
- //tag is version number
+//tag is version number
+
 2. [root]# docker pull mysql:tag         
 
 3. 创建数据库
