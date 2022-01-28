@@ -2,13 +2,13 @@
 
 1. [root]# systemctl start docker
 
-2. [root]# docker pull mysql
+2. [root]# docker pull mysql:tag    //tag is version
 
 3. 创建数据库
        
        创建数据库方式一：
        
-       [root]# docker run -d --name mysql2 -p 12345:3306 -e MYSQL_ROOT_PASSWORD=gz19731108 mysql
+       [root]# docker run -d --name mysql2 -p 12345:3306 -e MYSQL_ROOT_PASSWORD=gz19731108 mysql:tag
        
        创建数据库方式二：
        
@@ -24,7 +24,7 @@
                          
                          -e MYSQL_ROOT_PASSWORD=654321             初始化root用户的密码
                          
-                         -d mysql                                  后台程序运行mysql
+                         -d mysql:tag                              后台程序运行mysql
        
        
        
