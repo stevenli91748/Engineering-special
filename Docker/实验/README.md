@@ -51,7 +51,7 @@
 
 ## 在docker上安装MySQL
    * [在Docker安装MySQL](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装MySQL/README.md)
-
+   * [搭建 Pxc + Haproxy 对MySQL数据库做心跳检测](https://www.jianshu.com/p/28396151526c)
 ## Docker Swarm搭建zookeeper集群
 
    * [Docker Swarm 搭建 zookeeper 集群](https://www.jianshu.com/p/82f94f67c701)
