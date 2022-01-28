@@ -2,6 +2,7 @@
 ---
 * [1. docker环境配置](#1-docker环境配置)
   * [Docker安装](#1-Docker安装)
+  * [Docker开启远程安全访问](https://www.cnblogs.com/niceyoo/p/13270224.html)
   * [Docker 仓库搭建](#Docker-仓库搭建)
   * [在docker上安装MySQL](#在docker上安装MySQL)
   * [Docker 搭建 MongoDB 集群](#Docker-搭建MongoDB集群)
@@ -22,6 +23,7 @@
   * [docker gitlib CI/CD](#Docker-gitlib-CICD)
   * [Docker中搭建FastDFS文件系统](#Docker中搭建FastDFS文件系统)
   * [SpringBoot打包成Docker镜像](#SpringBoot打包成Docker镜像)
+  * [Docker+Jenkins+Git+GitLab实现DevOps](#Docker+Jenkins+Git+GitLab实现DevOps)
   * [使用Docker方式发布微服务](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k5fd32dd02725fd0b37cd75e) 
   * [使用Docker部署日志分析平台(ELK)](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714kc45328f0274c45147dee704)
   * [基于Docker的高级部署工具](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714keb132680275eb160de1d35c)
@@ -52,6 +54,10 @@
 
 ## Docker中搭建FastDFS文件系统
    * [Docker中搭建FastDFS文件系统](https://www.cnblogs.com/niceyoo/p/13511082.html)
+
+## Docker+Jenkins+Git+GitLab实现DevOps
+
+   * [Docker+Jenkins+Git+GitLab实现DevOps](https://www.cnblogs.com/niceyoo/p/13096218.html)
 
 
 ## SpringBoot打包成Docker镜像
