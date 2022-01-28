@@ -10,6 +10,7 @@
   * [在docker上安装监控](#在docker上安装监控)
   * [在docker上安装DNS](#在docker上安装DNS)
   * [在docker上安装SVN](#在docker上安装SVN)
+  * [Docker Swarm 搭建 zookeeper 集群](#Docker-Swarm搭建zookeeper集群)
   * [在docker上安装部署ceph集群](#在docker上安装部署ceph集群)
   * [在docker上安装部署filebeat](#在docker上安装部署filebeat)
   * [使用Docker方式发布微服务](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k5fd32dd02725fd0b37cd75e) 
@@ -42,6 +43,10 @@
    
 ## 在docker上安装MySQL
    * [在Docker安装MySQL](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装MySQL/README.md)
+
+## Docker-Swarm搭建zookeeper集群
+
+   * [Docker Swarm 搭建 zookeeper 集群](https://www.jianshu.com/p/82f94f67c701)
 
 ## 在docker上安装Redis
    * [在Docker安装Redis](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装Redis/README.md)
