@@ -4,7 +4,7 @@
 
 2. [root]# docker pull mysql
 
-3.创建数据库
+3. 创建数据库
        
        创建数据库方式一：
        
