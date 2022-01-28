@@ -4,6 +4,7 @@
   * [Docker安装](#1-Docker安装)
   * [Docker开启远程安全访问](https://www.cnblogs.com/niceyoo/p/13270224.html)
   * [Docker 仓库搭建](#Docker-仓库搭建)
+  * [基于Docker搭建Gitlab代码存储 ](#基于Docker搭建Gitlab代码存储 )
   * [在docker上安装MySQL](#在docker上安装MySQL)
   * [Docker 搭建 MongoDB 集群](#Docker-搭建MongoDB集群)
   * [在docker上安装Redis](#在docker上安装Redis)
@@ -51,6 +52,10 @@
 
 ## Docker 仓库搭建
    * [Docker 仓库搭建](https://www.jianshu.com/p/d27ec8b8ab5e)
+   * [基于Docker搭建私有镜像仓库](https://www.cnblogs.com/niceyoo/p/13058238.html)
+
+## 基于Docker搭建Gitlab代码存储 
+   * [基于Docker搭建Gitlab代码存储 ](https://www.cnblogs.com/niceyoo/p/13057533.html)
 
 ## Docker中搭建FastDFS文件系统
    * [Docker中搭建FastDFS文件系统](https://www.cnblogs.com/niceyoo/p/13511082.html)
