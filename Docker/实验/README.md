@@ -20,6 +20,7 @@
   * [Docker Swarm 搭建 Hadoop](#Docker-Swarm搭建Hadoop)
   * [在docker上安装部署filebeat](#在docker上安装部署filebeat)
   * [docker gitlib CI/CD](#Docker-gitlib-CICD)
+  * [Docker中搭建FastDFS文件系统](#Docker中搭建FastDFS文件系统)
   * [SpringBoot打包成Docker镜像](#SpringBoot打包成Docker镜像)
   * [使用Docker方式发布微服务](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k5fd32dd02725fd0b37cd75e) 
   * [使用Docker部署日志分析平台(ELK)](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714kc45328f0274c45147dee704)
@@ -48,6 +49,10 @@
 
 ## Docker 仓库搭建
    * [Docker 仓库搭建](https://www.jianshu.com/p/d27ec8b8ab5e)
+
+## Docker中搭建FastDFS文件系统
+   * [Docker中搭建FastDFS文件系统](https://www.cnblogs.com/niceyoo/p/13511082.html)
+
 
 ## SpringBoot打包成Docker镜像
    * [SpringBoot打包成Docker镜像](https://www.cnblogs.com/niceyoo/p/13796792.html)
