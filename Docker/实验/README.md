@@ -12,6 +12,7 @@
   * [在docker上安装监控](#在docker上安装监控)
   * [在docker上安装DNS](#在docker上安装DNS)
   * [在docker上安装SVN](#在docker上安装SVN)
+  * [Docker Swarm 搭建 solr 集群](#Docker-Swarm搭建solr集群)
   * [Docker Swarm 搭建 zookeeper 集群](#Docker-Swarm搭建zookeeper集群)
   * [在docker上安装部署ceph集群](#在docker上安装部署ceph集群)
   * [在docker上安装部署filebeat](#在docker上安装部署filebeat)
@@ -43,6 +44,10 @@
 ##  在Docker 运行 Oracle 数据库
    * [使用 Docker 运行 Oracle 数据库](https://rovo98.github.io/posts/c5182a98/)
  
+ 
+## Docker Swarm搭建solr集群
+   * [Docker Swarm 搭建 solr 集群](https://www.jianshu.com/p/f3fbbea3ff66)
+
 ## Docker 搭建MongoDB集群 
    * [ Docker 搭建 MongoDB 集群](https://www.jianshu.com/p/43fd9e24270e)
  
