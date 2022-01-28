@@ -2,7 +2,7 @@
 
 1. [root]# systemctl start docker
 
-2. [root]# docker pull mysql:tag    //tag is version
+2. [root]# docker pull mysql:tag          //tag is version
 
 3. 创建数据库
        
