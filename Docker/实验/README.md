@@ -5,6 +5,7 @@
   * [Docker开启远程安全访问](https://www.cnblogs.com/niceyoo/p/13270224.html)
   * [Docker 仓库搭建](#Docker-仓库搭建)
   * [基于Docker搭建Gitlab代码存储 ](#基于Docker搭建Gitlab代码存储 )
+  * [Docker中Maven私服的搭建](#Docker中Maven私服的搭建)
   * [在docker上安装MySQL](#在docker上安装MySQL)
   * [Docker 搭建 MongoDB 集群](#Docker-搭建MongoDB集群)
   * [在docker上安装Redis](#在docker上安装Redis)
@@ -20,6 +21,7 @@
   * [在docker上安装部署ceph集群](#在docker上安装部署ceph集群)
   * [Docker Swarm 搭建 ELK 日志系统](#Docker-Swarm搭建ELK日志系统)
   * [Docker Swarm 搭建 Hadoop](#Docker-Swarm搭建Hadoop)
+  * [基于Docker方式实现Elasticsearch集群 ](#基于Docker方式实现Elasticsearch集群)
   * [在docker上安装部署filebeat](#在docker上安装部署filebeat)
   * [docker gitlib CI/CD](#Docker-gitlib-CICD)
   * [Docker中搭建FastDFS文件系统](#Docker中搭建FastDFS文件系统)
@@ -57,6 +59,10 @@
 ## 基于Docker搭建Gitlab代码存储 
    * [基于Docker搭建Gitlab代码存储 ](https://www.cnblogs.com/niceyoo/p/13057533.html)
 
+## Docker中Maven私服的搭建
+   * [Docker中Maven私服的搭建](https://www.cnblogs.com/niceyoo/p/11204143.html)
+
+
 ## Docker中搭建FastDFS文件系统
    * [Docker中搭建FastDFS文件系统](https://www.cnblogs.com/niceyoo/p/13511082.html)
 
@@ -64,6 +70,8 @@
 
    * [Docker+Jenkins+Git+GitLab实现DevOps](https://www.cnblogs.com/niceyoo/p/13096218.html)
 
+## 基于Docker方式实现Elasticsearch集群 
+   * [基于Docker方式实现Elasticsearch集群 ](https://www.cnblogs.com/niceyoo/p/11342903.html)
 
 ## SpringBoot打包成Docker镜像
    * [SpringBoot打包成Docker镜像](https://www.cnblogs.com/niceyoo/p/13796792.html)
@@ -101,7 +109,9 @@
 
 ## 在docker上安装Redis
    * [在Docker安装Redis](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装Redis/README.md)
+   * [Docker安装Redis](https://www.cnblogs.com/niceyoo/p/11544587.html)
    * [基于Docker搭建Redis集群（主从集群）](https://www.cnblogs.com/niceyoo/p/14118146.html)
+   * [基于Docker的Redis集群搭建 ](https://www.cnblogs.com/niceyoo/p/13011626.html)
    * [redis集群官方不支持docker的swarm 集群网络方式，需指定容器的network使用host方式连接](https://www.cnblogs.com/ybch/p/14445612.html)
 ## 在docker上安装Tomcat
    * [在Docker安装Tomcat](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装Tomcat/README.md)
@@ -111,6 +121,8 @@
 ## 在docker上安装Nginx  
    * [在Docker安装Nginx](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装Nginx/README.md)
    * [Docker Nginx 下载 启动 配置](https://www.jianshu.com/p/4d9570b3fcf0)
+   * [Docker安装Nginx ](https://www.cnblogs.com/niceyoo/p/11546370.html)
+
 ## 在docker上安装监控
    * [Docker容器可视化监控中心搭建](https://mp.weixin.qq.com/s?__biz=MzU4ODI1MjA3NQ==&mid=2247483763&idx=1&sn=6ceb9e73540b5016dadfb212636b3855&chksm=fdded7b7caa95ea1165b507397c39267d3bf7522c83cc8ed10eae4ee4a13db831eb58a3dc167&scene=21#wechat_redirect)
    * [使用 docker-compose 安装 Prometheus+Alertmanager+Grafana](http://www.dev-share.top/2019/06/25/%e4%bd%bf%e7%94%a8-docker-compose-%e5%ae%89%e8%a3%85-prometheusalertmanagergrafana/)
