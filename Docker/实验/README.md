@@ -2,6 +2,7 @@
 ---
 * [1. docker环境配置](#1-docker环境配置)
   * [Docker安装](#1-Docker安装)
+  * [Docker 仓库搭建](#Docker-仓库搭建)
   * [在docker上安装MySQL](#在docker上安装MySQL)
   * [Docker 搭建 MongoDB 集群](#Docker-搭建MongoDB集群)
   * [在docker上安装Redis](#在docker上安装Redis)
@@ -19,6 +20,7 @@
   * [Docker Swarm 搭建 Hadoop](#Docker-Swarm搭建Hadoop)
   * [在docker上安装部署filebeat](#在docker上安装部署filebeat)
   * [docker gitlib CI/CD](#Docker-gitlib-CICD)
+  * [SpringBoot打包成Docker镜像](#SpringBoot打包成Docker镜像)
   * [使用Docker方式发布微服务](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k5fd32dd02725fd0b37cd75e) 
   * [使用Docker部署日志分析平台(ELK)](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714kc45328f0274c45147dee704)
   * [基于Docker的高级部署工具](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714keb132680275eb160de1d35c)
@@ -43,6 +45,12 @@
 ## Docker安装
    * [Docker windows版本安装](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Docker%20windows/README.md)
    * [Docker Linux版本安装](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/docker%20for%20linux/README.md)
+
+## Docker 仓库搭建
+   * [Docker 仓库搭建](https://www.jianshu.com/p/d27ec8b8ab5e)
+
+## SpringBoot打包成Docker镜像
+   * [SpringBoot打包成Docker镜像](https://www.cnblogs.com/niceyoo/p/13796792.html)
 
 ## Docker-gitlib-CICD
 
@@ -86,14 +94,14 @@
    
 ## 在docker上安装Nginx  
    * [在Docker安装Nginx](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装Nginx/README.md)
-
+   * [Docker Nginx 下载 启动 配置](https://www.jianshu.com/p/4d9570b3fcf0)
 ## 在docker上安装监控
    * [Docker容器可视化监控中心搭建](https://mp.weixin.qq.com/s?__biz=MzU4ODI1MjA3NQ==&mid=2247483763&idx=1&sn=6ceb9e73540b5016dadfb212636b3855&chksm=fdded7b7caa95ea1165b507397c39267d3bf7522c83cc8ed10eae4ee4a13db831eb58a3dc167&scene=21#wechat_redirect)
    * [使用 docker-compose 安装 Prometheus+Alertmanager+Grafana](http://www.dev-share.top/2019/06/25/%e4%bd%bf%e7%94%a8-docker-compose-%e5%ae%89%e8%a3%85-prometheusalertmanagergrafana/)
 
 ## 在docker上安装消息队列
    * [docker部署rabbitmq集群的实现方法](https://www.jb51.net/article/144748.htm)
-
+   * [Docker中安装RabbitMQ ](https://www.cnblogs.com/niceyoo/p/14094715.html)
 ## 在docker上安装DNS
 * [docker-compose 搭建 DNS 私服](http://www.dev-share.top/2020/06/04/%e6%90%ad%e5%bb%ba-dns-%e7%a7%81%e6%9c%8d/)
 
