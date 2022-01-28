@@ -127,4 +127,5 @@
 
 
 # 参考
-* [各种集成例子](https://www.jianshu.com/u/cf31b9838b17)
+* [各种集成例子1](https://www.jianshu.com/u/cf31b9838b17)
+* [各种集成例子2](https://www.cnblogs.com/niceyoo/category/1544920.html)
