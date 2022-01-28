@@ -215,8 +215,8 @@
 [吊炸天的 Docker 图形化工具 Portainer，必须推荐给你](https://www.jianshu.com/p/e76054edabe1?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends)|
 ---|
 
-[收藏手册：Docker安装RabbitMQ，只需3步](https://www.toutiao.com/a6872582086776226307/?log_from=15a2866372c8d_1630132988859)|
----|
+[收藏手册：Docker安装RabbitMQ，只需3步](https://www.toutiao.com/a6872582086776226307/?log_from=15a2866372c8d_1630132988859)|[Linux Docker 搭建 MongoDB 集群](https://www.jianshu.com/p/43fd9e24270e)|
+---|---|
 
 
 # Docker 内存
