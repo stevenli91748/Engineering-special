@@ -91,3 +91,7 @@
 * [在Docker环境构建、打包和运行Spring Boot应用](http://dockone.io/article/9530)
 * [基于docker+nginx+tomcat容器+mysql容器部署Java web项目实现负载均衡实战](https://blog.csdn.net/liqz666/article/details/82222511)
 * [docker-compose 构建项目](http://www.dev-share.top/2019/07/16/docker-compose-%e6%9e%84%e5%bb%ba%e9%a1%b9%e7%9b%ae/)
+
+
+# 参考
+* [各种集成例子](https://www.jianshu.com/u/cf31b9838b17)
