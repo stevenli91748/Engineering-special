@@ -70,13 +70,15 @@
 ## 在docker上安装MySQL
    * [在Docker安装MySQL](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装MySQL/README.md)
    * [搭建 Pxc + Haproxy 对MySQL数据库做心跳检测](https://www.jianshu.com/p/28396151526c)
+
 ## Docker Swarm搭建zookeeper集群
 
    * [Docker Swarm 搭建 zookeeper 集群](https://www.jianshu.com/p/82f94f67c701)
 
 ## 在docker上安装Redis
    * [在Docker安装Redis](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装Redis/README.md)
-
+   * [基于Docker搭建Redis集群（主从集群）](https://www.cnblogs.com/niceyoo/p/14118146.html)
+   * [redis集群官方不支持docker的swarm 集群网络方式，需指定容器的network使用host方式连接](https://www.cnblogs.com/ybch/p/14445612.html)
 ## 在docker上安装Tomcat
    * [在Docker安装Tomcat](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/在Docker安装Tomcat/README.md)
    * [使用Docker部署tomcat、mysql、nginx静态服务器](https://blog.csdn.net/a745233700/article/details/80452862)
