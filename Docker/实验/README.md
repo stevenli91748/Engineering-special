@@ -16,7 +16,9 @@
   * [Docker Swarm 搭建 zookeeper 集群](#Docker-Swarm搭建zookeeper集群)
   * [在docker上安装部署ceph集群](#在docker上安装部署ceph集群)
   * [Docker Swarm 搭建 ELK 日志系统](#Docker-Swarm搭建ELK日志系统)
+  * [Docker Swarm 搭建 Hadoop](#Docker-Swarm搭建Hadoop)
   * [在docker上安装部署filebeat](#在docker上安装部署filebeat)
+  * [docker gitlib CI/CD](#Docker-gitlib-CICD)
   * [使用Docker方式发布微服务](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k5fd32dd02725fd0b37cd75e) 
   * [使用Docker部署日志分析平台(ELK)](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714kc45328f0274c45147dee704)
   * [基于Docker的高级部署工具](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714keb132680275eb160de1d35c)
@@ -42,10 +44,17 @@
    * [Docker windows版本安装](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/Docker%20windows/README.md)
    * [Docker Linux版本安装](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/docker%20for%20linux/README.md)
 
+## Docker-gitlib-CICD
+
+   * [docker gitlib CI/CD](https://www.jianshu.com/p/49555945bc2d)
+
 ##  在Docker 运行 Oracle 数据库
    * [使用 Docker 运行 Oracle 数据库](https://rovo98.github.io/posts/c5182a98/)
 
-## Docker-Swarm搭建ELK日志系统
+## Docker Swarm搭建Hadoop
+   * [Docker Swarm 搭建 Hadoop](https://www.jianshu.com/p/4c4ccc60f4dd)
+
+## Docker Swarm搭建ELK日志系统
  
    * [Docker Swarm 搭建 ELK 日志系统](https://www.jianshu.com/p/da81ce484eb9)
  
