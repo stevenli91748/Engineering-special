@@ -43,8 +43,8 @@
        the password: 输入以上的原始密码
        
        //在mysql数据库中更改root用户的密码
-       mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'gz@19731108';
-       mysql> FLUSH PRIVILEGES
+       mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'gz@19731108';            //不要忘记分号 “ ；”
+       mysql> FLUSH PRIVILEGES;
        mysql> exit
        
        
