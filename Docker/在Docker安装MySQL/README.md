@@ -4,29 +4,46 @@
 
 //tag is version number
 
-2. [root]# docker pull mysql:tag         
+2. [root]#  docker pull mysql/mysql-server:tag
 
 3. 创建数据库
        
        创建数据库方式一：
        
-       [root]# docker run -d --name mysql2 -p 12345:3306 -e MYSQL_ROOT_PASSWORD=gz19731108 mysql:tag
+       [root]# docker run --name=mysql-master01 
+                          
+                          -p 33306:3306 
+    
+                          -v /zzyyuse/mysql/conf:/etc/mysql/conf.d  将主机/zzyyuse/mysql目录下的conf/my.cnf挂载到容器的/etc/mysql/conf.d   
+                         
+                          -v /zzyyuse/mysql/logs:/log               将主机/zzyyuse/mysql目录下的log目录挂载到容器的/logs 
+                         
+                          -v /zzyyuse/mysql/data:/var/lib/mysql     将主机/zzyyuse/mysql目录下的data目录挂载到容器的/var/lib/mysql 
+                          
+                          -d mysql/mysql-server:tag
        
-       创建数据库方式二：
        
-       [root]# docker run -p 12345:3306                             将主机的12345端口射到dockers容器的3306端口  
-                         
-                         --name dockermysql                        运行服务名字
-                         
-                         -v /zzyyuse/mysql/conf:/etc/mysql/conf.d  将主机/zzyyuse/mysql目录下的conf/my.cnf挂载到容器的/etc/mysql/conf.d   
-                         
-                         -v /zzyyuse/mysql/logs:/log               将主机/zzyyuse/mysql目录下的log目录挂载到容器的/logs 
-                         
-                         -v /zzyyuse/mysql/data:/var/lib/mysql     将主机/zzyyuse/mysql目录下的data目录挂载到容器的/var/lib/mysql 
-                         
-                         -e MYSQL_ROOT_PASSWORD=654321             初始化root用户的密码
-                         
-                         -d mysql:tag                              后台程序运行mysql
+       //The container initialization might take some time. When the server is ready for use, the STATUS of the container in the output of the docker ps command changes 
+         from (health: starting) to (healthy).
+       
+       [root]# docker ps
+       CONTAINER ID   IMAGE                COMMAND                  CREATED             STATUS                              PORTS                NAMES
+       a24888f0d6f4   mysql/mysql-server   "/entrypoint.sh my..."   14 seconds ago      Up 13 seconds (health: starting)    3306/tcp, 33060/tcp  mysql1
+       
+       
+       // Once initialization is finished, the command's output is going to contain the random password generated for the root user
+       
+       [root]# docker logs mysql-master01
+       
+       [root]#  docker logs mysql-master01 2>&1 | grep GENERATED
+       GENERATED ROOT PASSWORD: Axegh3kAJyDLaRuBemecis&EShOs
+       
+       // 进入到MYSQL容器中
+       [root]#  docker exec -it mysql-master01 mysql -uroot -p
+       the password: 输入以上的原始密码
+       
+       //在mysql数据库中更改root用户的密码
+       mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'gz@19731108';
        
        
        
@@ -43,7 +60,7 @@
        启动运行MySQL DATABASE
        
        [root@ MySQL运行成功后的容器ID]# mysql -uroot -p
-                       enter password： gz19731108
+                       enter password： gz@19731108
 
        
        Mysql>
