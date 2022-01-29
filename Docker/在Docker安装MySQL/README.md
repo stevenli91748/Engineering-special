@@ -44,7 +44,8 @@
        
        //在mysql数据库中更改root用户的密码
        mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'gz@19731108';
-       
+       mysql> FLUSH PRIVILEGES
+       mysql> exit
        
        
 4. 和MySQL交互操作
