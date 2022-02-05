@@ -301,34 +301,7 @@ Docker 不是万能的，只是为了解决资源重用和动态分配而设计�
 极大程度的节约计算机资源，它成为一种轻量级的“虚拟机”。
 
 
-# Docker视频
 
-[Docker跨主机通讯-overlay原理](https://www.bilibili.com/video/av66558776)|[跨主机通讯-overlay环境](https://www.bilibili.com/video/av66557496/?spm_id_from=333.788.videocard.0)|[创建overlay网络](https://www.bilibili.com/video/av66557604/?spm_id_from=333.788.videocard.1)|
----|---|---|
-
-[跨主机通信-macvlan创建](https://www.bilibili.com/video/av66558990)|[跨主机通信-macvlan结构分析](https://www.bilibili.com/video/av66559633)|
----|---|
-
-[docker监控走势图cAdvisor](https://www.bilibili.com/video/av66629451)|[Docker日志处理ELK](https://www.bilibili.com/video/av66570108)|[docker监控sysdig](https://www.bilibili.com/video/av66578934)|
----|---|---|
-
-[docker-框架结构](https://www.bilibili.com/video/av68291802)|[docker-镜像分层结构](https://www.bilibili.com/video/av68292120)|[docker-镜像-缓存-排错](https://www.bilibili.com/video/av68292314)|[docker-最小镜像和base镜像](https://www.bilibili.com/video/av68292010)|
----|---|---|---|
-
-[docker-registry本地仓库](https://www.bilibili.com/video/av68376632)|[docker-Dockerfile常用指令](https://www.bilibili.com/video/av68379090)|[docker-none&host网络类型](https://www.bilibili.com/video/av68773859)|
----|---|---|
-
-[docker-搞懂状态与操作](https://www.bilibili.com/video/av68778961)|[docker-必须要懂的bridge网络](https://www.bilibili.com/video/av68782002)|[docker-内外网访问](https://www.bilibili.com/video/av68789710)|
----|---|---|
-
-[docker-两类存储资源bindmount](https://www.bilibili.com/video/av68863431)|[docker-两类存储managevolume](https://www.bilibili.com/video/av68863536)|[docker_共享数据volumecontainer](https://www.bilibili.com/video/av68863619)|
----|---|---|
-
-[docker_共享数据DatapackedVolumeContainer](https://www.bilibili.com/video/av68863724)|[docker_machine集中安装与管理](https://www.bilibili.com/video/av68953512)|[Docker_容器内启动systemd程序](https://www.bilibili.com/video/av70483806)|
----|---|---|
-
-[容器的端口映射](https://www.bilibili.com/video/av17854410?p=12)|
----|
 
 
 # 视频
