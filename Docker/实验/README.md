@@ -10,6 +10,7 @@
   * [Docker 搭建 MongoDB 集群](#Docker-搭建MongoDB集群)
   * [在docker上安装Redis](#在docker上安装Redis)
   * [在docker上安装Tomcat](#在docker上安装Tomcat)
+  * [Mycat集群部署](#Mycat集群部署)
   * [在docker上安装Nginx](#在docker上安装Nginx)
   * [在docker上安装消息队列](#在docker上安装消息队列)
   * [Docker Swarm 搭建 kafka 集群](#Docker-Swarm搭建kafka集群)
@@ -92,6 +93,9 @@
  
 ## Docker Swarm搭建solr集群
    * [Docker Swarm 搭建 solr 集群](https://www.jianshu.com/p/f3fbbea3ff66)
+
+## Mycat集群部署
+   * [Mycat集群部署](https://www.cxybb.com/article/qq_33865313/114880214)
 
 ## Docker 搭建MongoDB集群 
    * [ Docker 搭建 MongoDB 集群](https://www.jianshu.com/p/43fd9e24270e)
