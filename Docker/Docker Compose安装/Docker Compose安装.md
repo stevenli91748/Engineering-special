@@ -1,10 +1,24 @@
 
+# 使用Docker Compose的步骤
+
+        使用Dockerfile定义应用程序环境，一般需要修改初始镜像行为时才需要使用；
+
+        使用docker-compose.yml定义需要部署的应用程序服务，以便执行脚本一次性部署；
+
+        使用docker-compose up命令将所有应用服务一次性部署起来。
+
+# Docker Compose将所管理的容器分为三层，工程、服务及容器。docker-compose.yml中定义所有服务组成了一个工程，services节点下即为服务，服务之下为容器。容器与容器直之间可以以服务名称为域名进行访问，比如在mall-tiny-docker-compose服务中可以通过jdbc:mysql://db:3306这个地址来访问db这个mysql服务。
+
+
+
 # 目录
 
 * [1. 安装Docker Compose](#1-安装Docker-Compose)
 * [2. 卸载Docker Compose](#2-卸载Docker-Compose)
 * [3. Docker Compose 命令](#3-Docker-Compose-命令)
 * [4. docker compose 案例](#4-docker-compose-案例)
+* [使用Docker Compose部署SpringBoot应用](https://mp.weixin.qq.com/s?__biz=MzU1Nzg4NjgyMw==&mid=2247483800&idx=1&sn=b9e0b6c006bad05e4055a3c0bb61c815&scene=21#wechat_redirect)
+
 # 1 安装Docker Compose
 
 首先安装Docker 在extend 虚拟机上，安装Docker见上一讲
