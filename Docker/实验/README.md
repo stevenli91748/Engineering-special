@@ -92,6 +92,7 @@
 ## Docker Swarm搭建ELK日志系统
  
    * [Docker Swarm 搭建 ELK 日志系统](https://www.jianshu.com/p/da81ce484eb9)
+   * [SpringBoot应用在Docker中整合ELK实现日志收集](http://www.macrozheng.com/#/technology/mall_tiny_elk)
  
 ## Docker Swarm搭建solr集群
    * [Docker Swarm 搭建 solr 集群](https://www.jianshu.com/p/f3fbbea3ff66)
