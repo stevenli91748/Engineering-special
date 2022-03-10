@@ -74,6 +74,7 @@ test  install  deploy
 * [maven高级应用-实战【IDEA版】](https://www.bilibili.com/video/av56964550/?spm_id_from=333.788.videocard.5)
 * [java高并发分布式SSM项目实战视频教](https://space.bilibili.com/7028047/channel/detail?cid=40223)
 # 有用的参考
+* [maven中<type>pom</type>和<scope>import</scope>和< dependencyManagement>用法](https://cloud.tencent.com/developer/article/1479488)
 * [dependency and dependencyManagement 区别](https://www.jianshu.com/p/886a6e07a320)
 * [IntellJ IDEA配置Maven以及修改默认Repository](https://zhuanlan.zhihu.com/p/28133184)
 * [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
