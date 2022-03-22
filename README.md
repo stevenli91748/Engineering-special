@@ -167,15 +167,16 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
 # 后端项目构建流程
 
   整个过程可以分成以下14个步骤：
-
-1. 项目立项
-2. 产品设计
-3. 需求分析
-4. 技术方案评审
-5. 接口设计
-6. 数据库设计
+1.
+2. [开发工具](https://weread.qq.com/web/reader/71032d60719ad5af7104ca2k6f4322302126f4922f45dec)
+3. 项目立项
+4. 产品设计
+5. 需求分析
+6. 技术方案评审
+7. 接口设计
+8. 数据库设计
    * [研发库表设计规范](https://www.jianshu.com/p/4b0d82c817fa)
-7. 开发
+9. 开发
   * Web应用代码开发的步骤---[一个列子让你弄懂SpringBoot实现后台框架的搭建](https://blog.csdn.net/qq_33883389/article/details/81322481)
     * step 1 首先项目搭建---IDEA 
       * 记住Application文件一定要在根目录底下不然程序会运行不起来的 
@@ -209,17 +210,17 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
   * 7.3 代码复杂度
   * 7.4 测试用例
   * 7.5 功能测试
-8. 单元测试
-9. GIT push 提交代码,触发CI(持续集成)流程，如果不能通过，打回到开发者
-10. 人工代码审核，如果不能通过，打回到开发者
-11. [集成测试(CI)/发布(CD)](https://github.com/stevenli91748/Engineering-special/blob/master/CI/README.md)
+10. 单元测试
+11. GIT push 提交代码,触发CI(持续集成)流程，如果不能通过，打回到开发者
+12. 人工代码审核，如果不能通过，打回到开发者
+13. [集成测试(CI)/发布(CD)](https://github.com/stevenli91748/Engineering-special/blob/master/CI/README.md)
     * Github Actions
     * Travis CI
     * Jenkis
-13. 联调
-14. 构建
-15. 回滚
-16. 监控
+14. 联调
+15. 构建
+16. 回滚
+17. 监控
 
 
 # 后端项目规范
