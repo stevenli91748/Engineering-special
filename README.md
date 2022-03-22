@@ -177,26 +177,26 @@ Netflix Hystrix是一个令人难以置信的有用的库，用于编写调用�
    * [研发库表设计规范](https://www.jianshu.com/p/4b0d82c817fa)
 7. 开发
   * Web应用代码开发的步骤---[一个列子让你弄懂SpringBoot实现后台框架的搭建](https://blog.csdn.net/qq_33883389/article/details/81322481)
-        * step 1 首先项目搭建---IDEA 
-          * 记住Application文件一定要在根目录底下不然程序会运行不起来的 
-        * step 2 然后开始新建包
-          * constant :常量包，存放一些常量数据，如定义服务器响应状态码。
-          * controller: 控制器，存放各种控制器，来提供数据或者返回界面
-          * entity：实体类包，存放各种与数据库对应的实体类
-          * mapper:存放各种与数据库映射的类
-          * modle:封装返回数据json的格式样式
-          * service:返回数据给控制调用
-        * step 3 Application：程序的入口
-          * @SpringBootApplication
-          * @MapperScan("com.domain.mapper") 这个用来扫描当前项目的实体类的映射
-        * step 4 POM文件的修改
-        * step 5 配置application.yml文件
-        * step 6 创建实体类层（entity）---创建对应每个表的实体类
-        * step 7 封装一个（通用）json数据格式, 在modle目录中创建一个basemodel,在model目录中的其他的json模板继承他就可以了
-        * step 8 在modle目录中创建各种model的json数据层
-        * step 9 开始写我们的Mapper层（操作数据库层）
-        * step 10 再写我们的Service层（调用Mapper层来完成相应操作）
-        * step 11 再写Controller层 
+    * step 1 首先项目搭建---IDEA 
+      * 记住Application文件一定要在根目录底下不然程序会运行不起来的 
+    * step 2 然后开始新建包
+      * constant :常量包，存放一些常量数据，如定义服务器响应状态码。
+      * controller: 控制器，存放各种控制器，来提供数据或者返回界面
+      * entity：实体类包，存放各种与数据库对应的实体类
+      * mapper:存放各种与数据库映射的类
+      * modle:封装返回数据json的格式样式
+      * service:返回数据给控制调用
+    * step 3 Application：程序的入口
+      * @SpringBootApplication
+      * @MapperScan("com.domain.mapper") 这个用来扫描当前项目的实体类的映射
+    * step 4 POM文件的修改
+    * step 5 配置application.yml文件
+    * step 6 创建实体类层（entity）---创建对应每个表的实体类
+    * step 7 封装一个（通用）json数据格式, 在modle目录中创建一个basemodel,在model目录中的其他的json模板继承他就可以了
+    * step 8 在modle目录中创建各种model的json数据层
+    * step 9 开始写我们的Mapper层（操作数据库层）
+    * step 10 再写我们的Service层（调用Mapper层来完成相应操作）
+    * step 11 再写Controller层 
   * 7.1 写完代码自行验证
   * 7.2 各种静态检查
     * [java静态代码分析工具](https://weread.qq.com/web/reader/71032d60719ad5af7104ca2kaab325601eaab3238922e53)
