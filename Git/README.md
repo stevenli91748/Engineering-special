@@ -53,3 +53,4 @@ git web服务器搭建与使用
 # 有用的参考
 
 * [Git 工作流程](http://www.ruanyifeng.com/blog/2015/12/git-workflow.html)
+* [45 个 Git 经典操作场景，专治不会合代码！](https://mp.weixin.qq.com/s/t67hGw45oy0MiRqVWmrWIA)
