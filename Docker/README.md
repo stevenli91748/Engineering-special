@@ -195,6 +195,10 @@
 [史上讲解最好的 Docker 教程，学Docker看这篇就够了！](https://mp.weixin.qq.com/s/qzKu95JVazQu1h0zu9GizA)|[看云 Docker —— 从入门到实践](https://www.kancloud.cn/docker_practice/docker_practice)|[还在百度Docker命令？推荐一套我用起来特顺手的命令！](http://www.macrozheng.com/#/reference/docker_command)|
 ---|---|---|
 
+[逐行解析Nginx镜像Dockerfile(学习经典)](https://mp.weixin.qq.com/s/6AAeBTQa3FZUYYG2CVyw6Q)|
+---|
+
+
 
 [两款Docker可视化工具](https://zhuanlan.zhihu.com/p/149693508)|[Spring Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)|
 ---|---|
