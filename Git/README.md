@@ -1,7 +1,7 @@
 
 
-[精尽 Git 学习指南](http://svip.iocoder.cn/Git/tutorials/)|
----|
+[精尽 Git 学习指南](http://svip.iocoder.cn/Git/tutorials/)|[猴子都能懂的GIT入门--非常好](https://backlog.com/git-tutorial/cn/)|
+---|---|
 
 
 # 视频
